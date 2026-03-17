@@ -1,0 +1,20 @@
+{
+  "title": "Guthu 健康食品",
+  "description": "优质健康食品与营养数据汇集。",
+  "hero": {
+    "title": "欢迎来到 Guthu 健康食品",
+    "subtitle": "为您连接有机、充满活力和可持续的营养源泉。"
+  },
+  "footer": {
+    "about": "关于我们",
+    "aboutDesc": "Guthu 健康食品致力于发掘全球的高品质有机食材，为你带来最纯粹的健康体验。",
+    "links": "快速导航",
+    "home": "首页",
+    "products": "探索产品",
+    "mission": "我们的使命",
+    "legal": "法律声明",
+    "privacy": "隐私权政策",
+    "terms": "服务条款",
+    "rights": "保留所有权利。"
+  }
+}

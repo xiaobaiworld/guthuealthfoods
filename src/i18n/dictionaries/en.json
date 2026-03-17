@@ -1,0 +1,20 @@
+{
+  "title": "Guthu Health Foods",
+  "description": "Premium health foods and nutritional data.",
+  "hero": {
+    "title": "Welcome to Guthu Health Foods",
+    "subtitle": "Connecting you with organic, vibrant, and sustainable nutrition."
+  },
+  "footer": {
+    "about": "About Us",
+    "aboutDesc": "Guthu Health Foods is committed to exploring global high-quality organic ingredients to bring you the purest health experience.",
+    "links": "Quick Links",
+    "home": "Home",
+    "products": "Products",
+    "mission": "Our Mission",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "rights": "All rights reserved."
+  }
+}
