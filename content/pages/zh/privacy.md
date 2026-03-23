@@ -19,7 +19,7 @@ readingTime: "约 4 分钟"
 
 ## 概述
 
-Guthu 健康食品（以下简称"我们"）运营网站 guthuhealthfoods.com（以下简称"本站"）。本隐私政策说明我们在您访问本站时如何收集、使用和保护相关信息。
+Guthu 健康食品（以下简称"我们"）运营网站 guthealthfoods.net（以下简称"本站"）。本隐私政策说明我们在您访问本站时如何收集、使用和保护相关信息。
 
 使用本站即表示您同意本政策所描述的做法。
 
@@ -120,5 +120,5 @@ Guthu 健康食品（以下简称"我们"）运营网站 guthuhealthfoods.com（
 
 如有关于本隐私政策的问题，请通过以下方式联系我们：
 
-**邮箱**：contact@guthuhealthfoods.com
-**网站**：guthuhealthfoods.com
+**邮箱**：contact@guthealthfoods.net
+**网站**：guthealthfoods.net

@@ -19,7 +19,7 @@ readingTime: "约 4 分钟"
 
 ## 同意条款
 
-访问或使用 guthuhealthfoods.com（以下简称"本站"），即表示您同意受本服务条款（以下简称"条款"）的约束。如不同意，请勿使用本站。
+访问或使用 guthealthfoods.net（以下简称"本站"），即表示您同意受本服务条款（以下简称"条款"）的约束。如不同意，请勿使用本站。
 
 ---
 
@@ -96,5 +96,5 @@ readingTime: "约 4 分钟"
 
 如有关于本服务条款的问题，请通过以下方式联系我们：
 
-**邮箱**：contact@guthuhealthfoods.com
-**网站**：guthuhealthfoods.com
+**邮箱**：contact@guthealthfoods.net
+**网站**：guthealthfoods.net

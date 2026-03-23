@@ -19,7 +19,7 @@ readingTime: "4 min read"
 
 ## Agreement to Terms
 
-By accessing or using guthuhealthfoods.com (the "Site"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree, please do not use the Site.
+By accessing or using guthealthfoods.net (the "Site"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree, please do not use the Site.
 
 ---
 
@@ -96,5 +96,5 @@ These Terms are governed by and construed in accordance with applicable law. Any
 
 For questions about these Terms, contact us at:
 
-**Email**: contact@guthuhealthfoods.com
-**Website**: guthuhealthfoods.com
+**Email**: contact@guthealthfoods.net
+**Website**: guthealthfoods.net

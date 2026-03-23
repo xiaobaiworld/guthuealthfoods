@@ -19,7 +19,7 @@ readingTime: "4 min read"
 
 ## Overview
 
-Guthu Health Foods ("we", "our", or "us") operates the website at guthuhealthfoods.com (the "Site"). This Privacy Policy explains how we collect, use, and protect information when you visit our Site.
+Guthu Health Foods ("we", "our", or "us") operates the website at guthealthfoods.net (the "Site"). This Privacy Policy explains how we collect, use, and protect information when you visit our Site.
 
 By using the Site, you agree to the practices described in this policy.
 
@@ -120,5 +120,5 @@ We may update this Privacy Policy from time to time. Changes will be posted on t
 
 For questions about this Privacy Policy, contact us at:
 
-**Email**: contact@guthuhealthfoods.com
-**Website**: guthuhealthfoods.com
+**Email**: contact@guthealthfoods.net
+**Website**: guthealthfoods.net
