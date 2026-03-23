@@ -1,29 +1,100 @@
 ---
 slug: "terms"
 title: "Terms of Service"
-description: "Terms of Service for Guthu Health Foods."
-summary: "Terms of Service is one of the required static pages in the public bilingual site."
-publishedAt: "2026-03-17"
-updatedAt: "2026-03-17"
+description: "Terms of Service for Guthu Health Foods — rules for using our Site, content disclaimer, and limitations of liability."
+summary: "Our Terms of Service cover permitted use, content accuracy, intellectual property, disclaimers, and limitations of liability."
+publishedAt: "2026-03-23"
+updatedAt: "2026-03-23"
 draft: false
 translationKey: "terms"
 relatedSlugs:
 heroTitle: "Terms of Service"
-heroSubtitle: "A required public-facing page in the launch structure."
-heroKicker: "Static page"
+heroSubtitle: "Last updated: March 23, 2026"
+heroKicker: "Legal"
 tags:
-  - site information
-  - public page
-readingTime: "2 min read"
+  - terms
+  - legal
+readingTime: "4 min read"
 ---
-## Purpose
 
-Terms of Service is a foundational static page in the Guthu Health Foods site system. It supports trust, structure, and future launch readiness.
+## Agreement to Terms
 
-## Current state
+By accessing or using guthuhealthfoods.com (the "Site"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree, please do not use the Site.
 
-This first version is intentionally concise. Its job is to establish a real route, stable metadata coverage, and a reusable editorial frame for later revision.
+---
 
-## What can be refined later
+## Use of the Site
 
-As the site matures, this page can be expanded with more precise language, policy detail, sourcing notes, operational contact paths, and production domain references.
+### Permitted Use
+
+You may access and use the Site for personal, non-commercial informational purposes. You agree not to:
+
+- Copy, reproduce, or redistribute Site content without written permission.
+- Use automated tools to scrape, crawl, or harvest content from the Site in bulk.
+- Attempt to disrupt or compromise the integrity or security of the Site.
+- Use the Site for any unlawful purpose.
+
+### Account and Access
+
+This Site does not currently require account registration. If registration is introduced in the future, users are responsible for maintaining the confidentiality of their credentials.
+
+---
+
+## Content and Accuracy
+
+### Informational Purpose Only
+
+All content on this Site — including food profiles, nutritional information, and health guides — is provided for general informational and educational purposes only. It is not intended as medical advice, dietary guidance, or a substitute for professional health consultation.
+
+Always consult a qualified healthcare professional before making changes to your diet or health regimen based on information found on this Site.
+
+### No Warranty on Accuracy
+
+While we strive to provide accurate and up-to-date information, we make no representations or warranties of any kind regarding the completeness, accuracy, or reliability of any content on the Site. Content may be updated or changed at any time without notice.
+
+---
+
+## Intellectual Property
+
+All original content on the Site, including text, design, and structure, is owned by or licensed to Guthu Health Foods. You may not reproduce, distribute, or create derivative works without explicit written permission.
+
+Third-party trademarks, service marks, and product names referenced on this Site are the property of their respective owners.
+
+---
+
+## Third-Party Advertising
+
+This Site displays third-party advertisements, including those served by Google AdSense. We are not responsible for the content of third-party ads or the practices of the advertisers. Clicking on third-party ads may take you to external websites governed by their own terms and policies.
+
+---
+
+## Disclaimer of Warranties
+
+THE SITE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, INCLUDING IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.
+
+---
+
+## Limitation of Liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, GUTHU HEALTH FOODS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING FROM YOUR USE OF OR INABILITY TO USE THE SITE OR ITS CONTENT.
+
+---
+
+## Changes to These Terms
+
+We reserve the right to modify these Terms at any time. Changes will be posted on this page with an updated date. Continued use of the Site after changes constitutes acceptance of the revised Terms.
+
+---
+
+## Governing Law
+
+These Terms are governed by and construed in accordance with applicable law. Any disputes shall be resolved through good-faith negotiation or, if necessary, through the courts of the applicable jurisdiction.
+
+---
+
+## Contact
+
+For questions about these Terms, contact us at:
+
+**Email**: contact@guthuhealthfoods.com
+**Website**: guthuhealthfoods.com
