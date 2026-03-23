@@ -60,8 +60,8 @@ export default async function Home({
           title={lang === "en" ? "Featured food profiles" : "精选食品条目"}
           description={
             lang === "en"
-              ? "The route system is now driven by structured bilingual markdown content."
-              : "页面系统已切换到结构化双语 markdown 内容驱动。"
+              ? "Browse the complete set of food profiles in our growing bilingual library."
+              : "浏览我们持续扩充的双语健康食品条目库。"
           }
         >
           <div className="card-grid">
