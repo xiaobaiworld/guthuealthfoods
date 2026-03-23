@@ -1,10 +1,10 @@
 ---
 slug: "soy-milk"
-description: "Soy Milk reference page in the Guthu Health Foods bilingual library."
-summary: "Soy Milk is one of the core food profile pages in the growing bilingual content system."
+description: "Soy milk is a plant-based drink made from whole soybeans, providing complete protein, isoflavones, and essential fatty acids as a nutritious alternative to cow's milk."
+summary: "Soy milk is one of the most nutritionally complete plant milks, offering complete protein, isoflavones linked to cardiovascular and bone health, and beneficial unsaturated fats."
 category: "drinks"
 publishedAt: "2026-03-17"
-updatedAt: "2026-03-17"
+updatedAt: "2026-03-23"
 draft: false
 translationKey: "soy-milk"
 relatedSlugs:
@@ -14,7 +14,7 @@ relatedSlugs:
 readingTime: "4 min read"
 title: "Soy Milk"
 heroTitle: "Soy Milk"
-heroSubtitle: "Soy Milk is part of the drinks track in the 100+ page rollout."
+heroSubtitle: "The most protein-complete plant milk, enriched with isoflavones and heart-healthy fats."
 heroKicker: "Drinks"
 tags:
   - drinks
@@ -24,23 +24,31 @@ tags:
 ---
 ## Overview
 
-Soy Milk is part of the growing Guthu Health Foods library. This draft page gives the project a stable route, a consistent heading structure, and enough editorial shape to support future refinement.
+Soy milk is produced by soaking dried soybeans, grinding them with water, and then heating and straining the liquid to remove the fibrous solids. It originated in China, where it has been consumed as a hot breakfast drink for over a thousand years, and became widely available in Western markets as a dairy-free alternative from the 1990s onward. Among all plant-based milks — including almond, oat, rice, and coconut — soy milk stands out as the only one with a protein profile broadly comparable to cow's milk, providing all nine essential amino acids. It is naturally lower in saturated fat than whole cow's milk and contains bioactive isoflavones found in no other widely consumed beverage.
 
-## Why Soy Milk belongs in the library
+## Nutritional Highlights
 
-Soy Milk fits naturally inside the drinks collection. At this stage, the goal is not to publish final expert copy, but to establish a reliable public page that can later be improved with deeper sourcing, tighter claims, and better visuals.
+- **Complete protein:** Unsweetened soy milk typically provides 7–9 g of protein per 240 ml serving, derived from soy proteins including glycinin and beta-conglycinin. These are considered high-quality proteins with a PDCAAS (Protein Digestibility Corrected Amino Acid Score) approaching that of animal proteins.
+- **Isoflavones (genistein and daidzein):** These phytoestrogens mimic weak oestrogenic activity in the body and have been studied for their potential to reduce menopausal symptoms, support bone density, and lower cardiovascular risk factors.
+- **Polyunsaturated fats:** Soy milk provides linoleic acid (omega-6) and small amounts of alpha-linolenic acid (omega-3 precursor), contributing to the favourable unsaturated fat profile.
+- **B vitamins:** Soy milk is a natural source of riboflavin (B2), folate, and B6; most commercial varieties are also fortified with B12.
+- **Calcium and vitamin D:** Commercial soy milks are routinely fortified to match the calcium and vitamin D content of cow's milk, making them a practical dairy alternative for bone health.
+- **Iron and potassium:** Soy milk provides non-haem iron and potassium, both important for red blood cell production and blood pressure regulation.
 
-## What this page already covers
+## Health Benefits
 
-- a short orientation summary for readers and search engines
-- a reusable section pattern for nutrition-oriented content
-- a route that can be paired with a Chinese equivalent
-- a place to connect related food pages and broader guide pages
+Soy isoflavones are among the most extensively studied phytochemicals in human nutrition. A comprehensive meta-analysis of 38 randomised trials published in the European Journal of Clinical Nutrition found that soy protein consumption significantly lowered total cholesterol and LDL cholesterol compared to animal protein control groups. The mechanism involves isoflavones upregulating LDL receptors in the liver, improving cholesterol clearance from the bloodstream. The US FDA authorised a health claim in 1999 stating that 25 g of soy protein daily, as part of a diet low in saturated fat, may reduce the risk of heart disease.
 
-## Practical positioning
+For post-menopausal women, soy isoflavones have been shown in controlled trials to modestly reduce the frequency and severity of hot flushes, with a 2010 meta-analysis reporting a mean reduction of approximately 26% compared to placebo. Effects are most pronounced in women who are "equol producers" — individuals whose gut microbiome converts daidzein to equol, a more potent phytoestrogen — which accounts for roughly 25–30% of Western and 50–60% of Asian populations.
 
-In the current build, Soy Milk is treated as a useful reference item for everyday meal planning, comparison browsing, and category exploration. It is intentionally written in a restrained tone so that future SEO and LLM work can strengthen facts without rewriting the page architecture.
+Concerns about soy and hormone-sensitive cancers have been largely addressed by prospective cohort studies. The Shanghai Women's Health Study and the Nurses' Health Study II both found that moderate soy consumption (1–2 servings daily) was not associated with increased breast cancer risk and was, in fact, associated with modest risk reduction in women who consumed soy regularly during adolescence. Current evidence does not support restricting moderate soy intake in breast cancer survivors, though individuals with existing thyroid conditions or on thyroid medication should be aware that soy can mildly inhibit thyroid hormone absorption if consumed in large amounts around medication time.
 
-## How we may expand this page later
+Soy milk's combination of protein, low glycaemic index, and isoflavones makes it particularly useful for blood sugar management. Several randomised trials have shown that replacing a high-glycaemic morning beverage with soy milk reduces post-meal glucose and insulin responses, supporting its role in a diet designed to manage or prevent type 2 diabetes.
 
-Future revisions can add nutrient highlights, preparation notes, sourcing notes, FAQ blocks, and structured evidence references. The route and metadata shape are already in place so the content can scale cleanly.
+## How to Use
+
+- **Choose unsweetened, fortified varieties:** Look for soy milk fortified with calcium (at least 120 mg per 100 ml) and vitamin D. Avoid sweetened versions for everyday use as they can add significant sugar, particularly if you are drinking multiple cups daily.
+- **Use as a direct dairy substitute:** Soy milk performs well in coffee and tea because its higher protein content produces stable foam and does not curdle as readily as other plant milks in acidic drinks. Barista-formulated soy milks are specifically designed for this purpose.
+- **Cook with it freely:** Soy milk works well in porridge, béchamel sauces, pancake batters, custards, and smoothies. Its neutral flavour in unsweetened form means it rarely dominates a dish.
+- **Traditional preparations:** Hot soy milk (豆浆, dòu jiāng) is a staple Chinese breakfast paired with youtiao (fried dough sticks) or savoury toppings such as preserved vegetables, vinegar, and chilli oil. This savoury approach is a delicious way to experience soy milk outside its Western sweet context.
+- **Check for additives:** Some commercial soy milks contain carrageenan as a stabiliser, which has been debated in the scientific literature for potential gut irritation effects. If you are sensitive to digestive issues, choose brands using only sunflower lecithin or no emulsifiers at all.

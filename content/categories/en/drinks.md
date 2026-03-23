@@ -1,10 +1,10 @@
 ---
 slug: "drinks"
 title: "Drinks"
-description: "Drinks collection page for the Guthu Health Foods food library."
-summary: "Drinks groups multiple related food profile pages under one stable topic route."
+description: "Explore health-promoting drinks including green tea, matcha, kefir, and more — with evidence-based profiles on their nutrients, benefits, and daily use."
+summary: "A guide to health-supporting beverages, from antioxidant-rich teas to fermented drinks that nourish the gut."
 publishedAt: "2026-03-17"
-updatedAt: "2026-03-17"
+updatedAt: "2026-03-23"
 draft: false
 translationKey: "drinks"
 relatedSlugs:
@@ -12,7 +12,7 @@ relatedSlugs:
   - matcha
   - kefir
 heroTitle: "Drinks"
-heroSubtitle: "Browse the drinks track across the bilingual Guthu Health Foods library."
+heroSubtitle: "From antioxidant-rich teas to gut-nourishing fermented beverages — explore drinks that support your health."
 heroKicker: "Collection"
 tags:
   - drinks
@@ -20,26 +20,21 @@ tags:
   - routine
 readingTime: "3 min read"
 ---
-## Collection purpose
+## About Drinks
 
-The Drinks collection groups a focused set of food pages under one navigable topic. This page exists to support internal linking, clearer crawl paths, and a more scalable library architecture.
+What you drink is just as important as what you eat. Health-promoting beverages provide hydration alongside meaningful amounts of antioxidants, probiotics, vitamins, and bioactive compounds that support everything from gut health to cognitive function. This category covers drinks that have earned their place in a balanced, evidence-based diet.
 
-## What readers can expect
+## Why This Category Matters
 
-This collection currently gathers 6 food profiles in the first generation of the site. Over time, it can become a stronger hub page with editorial summaries, comparison blocks, and curated sequences for beginners.
+Many of the world's most well-studied dietary patterns — the Mediterranean diet, traditional Japanese and Chinese eating habits — feature specific beverages as a core component, not an afterthought. Green tea, for example, has been associated with reduced risk of cardiovascular disease and cognitive decline in large epidemiological studies. Fermented drinks like kefir and kombucha deliver live cultures that contribute to a diverse gut microbiome, which researchers now link to immune regulation, mood, and metabolic health.
 
-## Current role in the build
+Unlike sugary drinks that spike blood glucose and deliver empty calories, the beverages in this category offer functional nutrition. They are typically low in sugar, rich in polyphenols or probiotics, and easy to incorporate into daily routines — making them one of the most accessible levers for improving diet quality without overhauling your entire eating pattern.
 
-- acts as a stable category route
-- connects multiple food detail pages through one shared hub
-- gives both users and crawlers a broader topical entry point
-- prepares the site for sitemap and metadata expansion later
+## What You'll Find Here
 
-## Included topics for now
-
-- Green Tea
-- Matcha
-- Kefir
-- Kombucha
-- Soy Milk
-- Oat Milk
+- **Green Tea** — Rich in EGCG (epigallocatechin gallate), a potent antioxidant polyphenol linked to heart health, fat oxidation, and neuroprotection.
+- **Matcha** — A finely ground whole-leaf green tea that delivers a more concentrated dose of antioxidants and L-theanine than standard brewed tea, promoting calm alertness.
+- **Kefir** — A fermented milk drink teeming with diverse probiotic strains; supports gut microbiome diversity, digestion, and immune function.
+- **Kombucha** — A fermented tea beverage containing organic acids, B vitamins, and live cultures that support digestive health and liver function.
+- **Soy Milk** — A plant-based milk rich in complete protein, isoflavones, and calcium; a versatile dairy alternative with well-documented cardiovascular benefits.
+- **Oat Milk** — A creamy plant-based beverage made from whole oats, providing beta-glucan fiber that helps moderate cholesterol and blood sugar levels.

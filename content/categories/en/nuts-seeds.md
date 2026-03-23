@@ -1,10 +1,10 @@
 ---
 slug: "nuts-seeds"
 title: "Nuts and Seeds"
-description: "Nuts and Seeds collection page for the Guthu Health Foods food library."
-summary: "Nuts and Seeds groups multiple related food profile pages under one stable topic route."
+description: "Discover the health benefits of nuts and seeds including walnuts, almonds, chia seeds, and more — with evidence-based profiles on their healthy fats, protein, and micronutrients."
+summary: "A guide to nuts and seeds — calorie-dense, nutrient-rich foods packed with healthy fats, plant protein, fiber, and minerals."
 publishedAt: "2026-03-17"
-updatedAt: "2026-03-17"
+updatedAt: "2026-03-23"
 draft: false
 translationKey: "nuts-seeds"
 relatedSlugs:
@@ -12,7 +12,7 @@ relatedSlugs:
   - almond
   - chia-seeds
 heroTitle: "Nuts and Seeds"
-heroSubtitle: "Browse the nuts and seeds track across the bilingual Guthu Health Foods library."
+heroSubtitle: "Calorie-dense and nutrient-packed — explore nuts and seeds with the fats, proteins, and minerals your body needs."
 heroKicker: "Collection"
 tags:
   - nuts
@@ -20,26 +20,21 @@ tags:
   - healthy fats
 readingTime: "3 min read"
 ---
-## Collection purpose
+## About Nuts and Seeds
 
-The Nuts and Seeds collection groups a focused set of food pages under one navigable topic. This page exists to support internal linking, clearer crawl paths, and a more scalable library architecture.
+Nuts and seeds are among the most nutrient-dense calorie sources available. In a small handful you get heart-healthy unsaturated fats, plant protein, dietary fiber, magnesium, zinc, selenium, vitamin E, and a range of antioxidant polyphenols. Large-scale studies consistently find that regular nut consumption is associated with lower rates of cardiovascular disease, type 2 diabetes, and all-cause mortality — even after accounting for their high caloric density.
 
-## What readers can expect
+## Why This Category Matters
 
-This collection currently gathers 6 food profiles in the first generation of the site. Over time, it can become a stronger hub page with editorial summaries, comparison blocks, and curated sequences for beginners.
+The cardiovascular benefits of nuts and seeds are among the most replicated findings in nutritional epidemiology. Walnuts in particular are uniquely rich in ALA (alpha-linolenic acid), a plant-based omega-3 fatty acid, while almonds provide exceptional amounts of vitamin E — a fat-soluble antioxidant that protects LDL cholesterol from oxidation. Chia and flax seeds are outstanding sources of both ALA and soluble fiber, making them useful for both omega-3 status and glycemic control.
 
-## Current role in the build
+Seeds also provide lignans — phytoestrogens with antioxidant and hormonal modulating properties. Flaxseeds are the richest dietary source of lignans, and research suggests they may reduce the risk of hormone-sensitive cancers and support cardiovascular health. Pumpkin seeds are one of the best plant-based sources of zinc, critical for immune function, wound healing, and reproductive health. Despite their caloric density, studies consistently show that regular nut eaters do not gain more weight than non-eaters, likely due to satiety effects and differences in fat absorption.
 
-- acts as a stable category route
-- connects multiple food detail pages through one shared hub
-- gives both users and crawlers a broader topical entry point
-- prepares the site for sitemap and metadata expansion later
+## What You'll Find Here
 
-## Included topics for now
-
-- Walnut
-- Almond
-- Chia Seeds
-- Flax Seeds
-- Pumpkin Seeds
-- Sesame Seeds
+- **Walnut** — The richest nut source of ALA omega-3 fatty acids; also provides ellagitannins and polyphenols that support brain health, inflammation reduction, and cardiovascular function.
+- **Almond** — Exceptionally high in vitamin E and monounsaturated fat; regular consumption is linked to reduced LDL cholesterol and improved glycemic control.
+- **Chia Seeds** — A concentrated source of ALA omega-3s, soluble fiber, and calcium; forms a gel in liquid that slows glucose absorption and promotes satiety.
+- **Flax Seeds** — The world's richest source of lignans and a significant ALA source; supports cardiovascular health, hormonal balance, and digestive regularity.
+- **Pumpkin Seeds** — One of the best plant-based sources of zinc and magnesium; also provide tryptophan, the amino acid precursor to serotonin and melatonin.
+- **Sesame Seeds** — Rich in sesamin and sesamolin lignans; an excellent plant source of calcium and copper, with well-documented antioxidant and cholesterol-modulating effects.

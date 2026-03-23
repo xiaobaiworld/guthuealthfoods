@@ -1,29 +1,34 @@
 ---
 slug: "about"
 title: "About Guthu Health Foods"
-description: "About Guthu Health Foods for Guthu Health Foods."
-summary: "About Guthu Health Foods is one of the required static pages in the public bilingual site."
+description: "Learn about Guthu Health Foods — a bilingual English and Chinese resource for evidence-based nutrition information on health-promoting foods."
+summary: "Guthu Health Foods is a bilingual food knowledge library providing accurate, research-backed profiles on whole foods and their role in a healthy diet."
 publishedAt: "2026-03-17"
-updatedAt: "2026-03-17"
+updatedAt: "2026-03-23"
 draft: false
 translationKey: "about"
 relatedSlugs:
 heroTitle: "About Guthu Health Foods"
-heroSubtitle: "A required public-facing page in the launch structure."
-heroKicker: "Static page"
+heroSubtitle: "A bilingual library of evidence-based nutrition knowledge, built for English and Chinese speakers alike."
+heroKicker: "About"
 tags:
   - site information
   - public page
 readingTime: "2 min read"
 ---
-## Purpose
+## Who We Are
 
-About Guthu Health Foods is a foundational static page in the Guthu Health Foods site system. It supports trust, structure, and future launch readiness.
+Guthu Health Foods is a bilingual food knowledge library dedicated to making accurate, evidence-based nutrition information accessible in both English and Chinese. We believe that understanding what you eat — and why it matters — should not be limited by language. Every food profile on this site is written with the same depth and care in both languages, so readers can learn in whichever language they are most comfortable with.
 
-## Current state
+## What We Offer
 
-This first version is intentionally concise. Its job is to establish a real route, stable metadata coverage, and a reusable editorial frame for later revision.
+Our library covers a growing collection of whole and minimally processed foods organized into eight categories: Leafy Greens, Fruits, Nuts and Seeds, Legumes and Grains, Healthy Oils, Herbs and Spices, Functional Foods, and Drinks. Each food profile explains the nutritional composition of a food, the mechanisms behind its health benefits, how it fits into a balanced diet, and practical guidance for incorporating it into everyday eating.
 
-## What can be refined later
+We do not sell products, promote supplements, or endorse specific brands. Our focus is entirely on whole food knowledge — helping you understand the foods themselves, backed by peer-reviewed research and established nutritional science.
 
-As the site matures, this page can be expanded with more precise language, policy detail, sourcing notes, operational contact paths, and production domain references.
+## Our Approach
+
+Every claim on this site is grounded in evidence. We draw on peer-reviewed studies, systematic reviews, and guidance from established nutrition and health bodies. Where the research is uncertain or evolving, we say so. We avoid overstatement: no food is a "cure," and no single food determines overall health. What matters is the pattern of eating over time, and we aim to help you build that pattern with clear, accurate information.
+
+Guthu Health Foods was built for readers who want to understand nutrition beyond headlines — people who are curious about the science, comfortable with nuance, and making thoughtful choices about what they eat every day.
+
