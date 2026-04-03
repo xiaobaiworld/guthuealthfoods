@@ -5,10 +5,10 @@ import ContentCard from "@/components/content/ContentCard";
 import ContentSection from "@/components/content/ContentSection";
 import JsonLd from "@/components/seo/JsonLd";
 import { getFeaturedCategories, getFeaturedFoods, getFeaturedGuides } from "@/lib/content";
+import { getDictionary } from "@/i18n/get-dictionary";
 import { buildHomeSchema } from "@/lib/schema";
 import { buildHomeMetadata } from "@/lib/seo";
 import { getCategoryPath, getFoodPath, getGuidePath } from "@/lib/site";
-import { getDictionary } from "@/i18n/get-dictionary";
 
 export async function generateMetadata({
   params,
@@ -36,8 +36,7 @@ export default async function Home({
   return (
     <div className="home-page">
       <JsonLd data={schema} />
-      <header className="home-hero">
-        <div className="site-shell">
+      <header className="site-shell home-hero">
           <p className="eyebrow">
             {lang === "en" ? "Bilingual health food knowledge base" : "双语健康食品知识库"}
           </p>
@@ -51,17 +50,16 @@ export default async function Home({
               {lang === "en" ? "Read guides" : "阅读指南"}
             </Link>
           </div>
-        </div>
       </header>
 
       <div className="site-shell stack-xl">
         <ContentSection
-          kicker={lang === "en" ? "Food library" : "食品库"}
+          kicker={lang === "en" ? "Food library" : "食品资料库"}
           title={lang === "en" ? "Featured food profiles" : "精选食品条目"}
           description={
             lang === "en"
               ? "Browse the complete set of food profiles in our growing bilingual library."
-              : "浏览我们持续扩充的双语健康食品条目库。"
+              : "从这里开始浏览我们持续扩展的双语健康食品资料库。"
           }
         >
           <div className="card-grid">
@@ -97,7 +95,7 @@ export default async function Home({
 
         <ContentSection
           kicker={lang === "en" ? "Guides" : "指南"}
-          title={lang === "en" ? "Start with foundational guides" : "先从基础指南开始"}
+          title={lang === "en" ? "Start with foundational guides" : "从基础指南开始"}
         >
           <div className="card-grid card-grid--compact">
             {guides.map((guide) => (

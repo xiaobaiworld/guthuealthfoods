@@ -89,10 +89,27 @@ export async function getAllItems(
 ): Promise<ContentItem[]> {
   const files = ensureCollectionDirExists(collection, lang);
   const items = await Promise.all(files.map((file) => parseFile(collection, lang, file)));
+  const publishedItems = items.filter((item) => !item.draft);
 
-  return items
-    .filter((item) => !item.draft)
-    .sort((a, b) => a.title.localeCompare(b.title));
+  if (collection === "foods" && lang === "zh") {
+    const englishFiles = ensureCollectionDirExists(collection, "en");
+    const englishItems = await Promise.all(
+      englishFiles.map((file) => parseFile(collection, "en", file)),
+    );
+    const englishTitleMap = new Map(
+      englishItems
+        .filter((item) => !item.draft)
+        .map((item) => [item.translationKey || item.slug, item.title] as const),
+    );
+
+    return publishedItems.sort((a, b) => {
+      const aEnglishTitle = englishTitleMap.get(a.translationKey || a.slug) ?? a.slug;
+      const bEnglishTitle = englishTitleMap.get(b.translationKey || b.slug) ?? b.slug;
+      return aEnglishTitle.localeCompare(bEnglishTitle);
+    });
+  }
+
+  return publishedItems.sort((a, b) => a.title.localeCompare(b.title));
 }
 
 export async function getItemBySlug(

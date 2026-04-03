@@ -48,12 +48,8 @@ export default async function CategoryDetailPage({
     notFound();
   }
 
-  const [alternateItem, foods] = await Promise.all([
-    getAlternateItem(item),
-    getAllItems("foods", lang),
-  ]);
+  const [alternateItem, foods] = await Promise.all([getAlternateItem(item), getAllItems("foods", lang)]);
   const schema = buildContentSchema(item);
-
   const matchingFoods = foods.filter((food) => food.category === item.slug);
 
   return (
@@ -66,7 +62,7 @@ export default async function CategoryDetailPage({
       <section className="related-block">
         <div className="section-heading">
           <p className="section-heading__kicker">{lang === "en" ? "Food profiles" : "食品条目"}</p>
-          <h2>{lang === "en" ? "Pages in this collection" : "本分类下的页面"}</h2>
+          <h2>{lang === "en" ? "Pages in this collection" : "该分类下的页面"}</h2>
         </div>
         <div className="card-grid">
           {matchingFoods.map((food) => (

@@ -1,7 +1,7 @@
 ---
 slug: "privacy"
 title: "隐私政策"
-description: "Guthu 健康食品隐私政策——关于数据收集、Cookie 使用及 Google AdSense 等第三方服务的说明。"
+description: "肠道健康食品隐私政策：关于数据收集、Cookie 使用及 Google AdSense 等第三方服务的说明。"
 summary: "本隐私政策涵盖数据收集、Cookie、Google AdSense 与 Analytics、以及您作为访客的相关权利。"
 publishedAt: "2026-03-23"
 updatedAt: "2026-03-23"
@@ -19,7 +19,7 @@ readingTime: "约 4 分钟"
 
 ## 概述
 
-Guthu 健康食品（以下简称"我们"）运营网站 guthealthfoods.net（以下简称"本站"）。本隐私政策说明我们在您访问本站时如何收集、使用和保护相关信息。
+肠道健康食品（以下简称“我们”）运营网站 guthealthfoods.net（以下简称“本站”）。本隐私政策说明我们在您访问本站时如何收集、使用和保护相关信息。
 
 使用本站即表示您同意本政策所描述的做法。
 

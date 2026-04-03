@@ -1,7 +1,7 @@
 ---
 slug: "daily-healthy-eating-guide"
 title: "每日健康饮食指南"
-description: "每日健康饮食指南 是 Guthu 健康食品内容库中的支撑型专题指南。"
+description: "每日健康饮食指南是肠道健康食品内容库中的支撑型专题指南。"
 summary: "每日健康饮食指南 用于把多个食品页面组织成更完整的主题路径。"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-17"

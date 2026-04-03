@@ -54,7 +54,7 @@ img {
 
 .page-shell {
   min-height: calc(100vh - 320px);
-  padding-top: 96px;
+  padding-top: 20px;
 }
 
 .site-shell {
@@ -63,10 +63,11 @@ img {
 }
 
 .site-header {
-  position: fixed;
-  inset: 0 0 auto 0;
+  position: sticky;
+  top: 0;
   z-index: 20;
-  padding: 20px 0;
+  padding: 0;
+  background: transparent;
 }
 
 .site-nav {
@@ -75,11 +76,10 @@ img {
   justify-content: space-between;
   gap: 16px;
   padding: 14px 20px;
-  background: rgba(255, 253, 248, 0.88);
+  background: var(--surface);
   border: 1px solid rgba(215, 221, 210, 0.8);
   box-shadow: var(--shadow);
   border-radius: 999px;
-  backdrop-filter: blur(10px);
 }
 
 .brand-link {
@@ -165,6 +165,19 @@ img {
   margin-top: 12px;
 }
 
+.home-hero h1 {
+  font-size: clamp(2.05rem, 4.2vw, 4rem);
+  max-width: none;
+  white-space: nowrap;
+}
+
+.page-intro h1,
+.rich-page__hero h1 {
+  font-size: clamp(2.05rem, 4vw, 3.9rem);
+  max-width: none;
+  white-space: nowrap;
+}
+
 .home-hero__subtitle,
 .rich-page__subtitle,
 .page-intro p,
@@ -180,8 +193,10 @@ img {
   align-items: center;
   justify-content: center;
   padding: 14px 20px;
+  min-width: 168px;
   border-radius: 999px;
   font-weight: 700;
+  text-align: center;
 }
 
 .button--primary {
@@ -190,9 +205,9 @@ img {
 }
 
 .button--secondary {
-  background: white;
-  color: var(--brand-dark);
-  border: 1px solid var(--line);
+  background: var(--brand);
+  color: white;
+  border: 1px solid var(--brand);
 }
 
 .eyebrow,
@@ -231,9 +246,17 @@ img {
   box-shadow: var(--shadow);
 }
 
+.home-hero,
+.rich-page__hero,
+.page-intro {
+  margin-top: 12px;
+}
+
 .content-card {
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 12px;
+  height: 100%;
 }
 
 .content-card__title {
@@ -242,6 +265,10 @@ img {
 
 .content-card__description {
   color: var(--muted);
+}
+
+.content-card .tag-list {
+  margin-top: auto;
 }
 
 .content-card__cta {
@@ -362,7 +389,13 @@ img {
   }
 
   .page-shell {
-    padding-top: 150px;
+    padding-top: 16px;
+  }
+
+  .home-hero,
+  .page-intro,
+  .rich-page__hero {
+    margin-top: 8px;
   }
 
   .home-hero,
@@ -372,5 +405,14 @@ img {
   .content-card,
   .sidebar-panel {
     padding: 24px;
+  }
+
+  .home-hero h1 {
+    white-space: normal;
+  }
+
+  .page-intro h1,
+  .rich-page__hero h1 {
+    white-space: normal;
   }
 }

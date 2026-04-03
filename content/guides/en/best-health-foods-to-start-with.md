@@ -1,7 +1,7 @@
 ---
 slug: "best-health-foods-to-start-with"
 title: "Best Health Foods To Start With"
-description: "Best Health Foods To Start With is a supporting editorial guide in the Guthu Health Foods library."
+description: "Best Health Foods To Start With is a supporting editorial guide in the Gut Health Foods library."
 summary: "Best Health Foods To Start With connects the food profiles into a broader topical path."
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-17"

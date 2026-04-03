@@ -120,10 +120,7 @@ export function buildContentSchema(item: ContentItem) {
       name: siteConfig.name,
       url: siteConfig.url,
     },
-    about: [
-      item.title,
-      item.category ?? getLocaleName(item.lang),
-    ],
+    about: [item.title, item.category ?? getLocaleName(item.lang)],
     keywords: item.tags,
   };
 }

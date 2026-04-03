@@ -1,7 +1,7 @@
 ---
 slug: "terms"
 title: "Terms of Service"
-description: "Terms of Service for Guthu Health Foods — rules for using our Site, content disclaimer, and limitations of liability."
+description: "Terms of Service for Gut Health Foods 閿?rules for using our Site, content disclaimer, and limitations of liability."
 summary: "Our Terms of Service cover permitted use, content accuracy, intellectual property, disclaimers, and limitations of liability."
 publishedAt: "2026-03-23"
 updatedAt: "2026-03-23"
@@ -44,7 +44,7 @@ This Site does not currently require account registration. If registration is in
 
 ### Informational Purpose Only
 
-All content on this Site — including food profiles, nutritional information, and health guides — is provided for general informational and educational purposes only. It is not intended as medical advice, dietary guidance, or a substitute for professional health consultation.
+All content on this Site 閿?including food profiles, nutritional information, and health guides 閿?is provided for general informational and educational purposes only. It is not intended as medical advice, dietary guidance, or a substitute for professional health consultation.
 
 Always consult a qualified healthcare professional before making changes to your diet or health regimen based on information found on this Site.
 
@@ -56,7 +56,7 @@ While we strive to provide accurate and up-to-date information, we make no repre
 
 ## Intellectual Property
 
-All original content on the Site, including text, design, and structure, is owned by or licensed to Guthu Health Foods. You may not reproduce, distribute, or create derivative works without explicit written permission.
+All original content on the Site, including text, design, and structure, is owned by or licensed to Gut Health Foods. You may not reproduce, distribute, or create derivative works without explicit written permission.
 
 Third-party trademarks, service marks, and product names referenced on this Site are the property of their respective owners.
 
@@ -76,7 +76,7 @@ THE SITE IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, 
 
 ## Limitation of Liability
 
-TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, GUTHU HEALTH FOODS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING FROM YOUR USE OF OR INABILITY TO USE THE SITE OR ITS CONTENT.
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, GUT HEALTH FOODS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES ARISING FROM YOUR USE OF OR INABILITY TO USE THE SITE OR ITS CONTENT.
 
 ---
 

@@ -1,19 +1,19 @@
 {
-  "title": "Guthu 健康食品",
-  "description": "优质健康食品与营养数据汇集。",
+  "title": "肠道健康食品",
+  "description": "面向中文读者的健康食品资料与饮食参考。",
   "hero": {
-    "title": "欢迎来到 Guthu 健康食品",
+    "title": "欢迎来到肠道健康食品",
     "subtitle": "为您连接有机、充满活力和可持续的营养源泉。"
   },
   "footer": {
     "about": "关于我们",
-    "aboutDesc": "Guthu 健康食品致力于发掘全球的高品质有机食材，为你带来最纯粹的健康体验。",
-    "links": "快速导航",
+    "aboutDesc": "肠道健康食品致力于整理更清楚、更容易实践的饮食内容，帮助你把健康选择真正带进日常生活。",
+    "links": "快速链接",
     "home": "首页",
-    "products": "探索产品",
+    "products": "食品库",
     "mission": "我们的使命",
-    "legal": "法律声明",
-    "privacy": "隐私权政策",
+    "legal": "法律信息",
+    "privacy": "隐私政策",
     "terms": "服务条款",
     "rights": "保留所有权利。"
   }

@@ -1,7 +1,7 @@
 ---
 slug: "healthy-foods-by-category"
 title: "Healthy Foods By Category"
-description: "Healthy Foods By Category is a supporting editorial guide in the Guthu Health Foods library."
+description: "Healthy Foods By Category is a supporting editorial guide in the Gut Health Foods library."
 summary: "Healthy Foods By Category connects the food profiles into a broader topical path."
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-17"

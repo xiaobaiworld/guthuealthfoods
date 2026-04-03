@@ -1,7 +1,7 @@
 ---
 slug: "healthy-foods-by-category"
 title: "按分类理解健康食品"
-description: "按分类理解健康食品 是 Guthu 健康食品内容库中的支撑型专题指南。"
+description: "按分类理解健康食品是肠道健康食品内容库中的支撑型专题指南。"
 summary: "按分类理解健康食品 用于把多个食品页面组织成更完整的主题路径。"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-17"

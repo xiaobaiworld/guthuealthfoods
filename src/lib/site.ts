@@ -1,7 +1,7 @@
 import type { Language } from "@/lib/content";
 
 export const siteConfig = {
-  name: "Guthu Health Foods",
+  name: "Gut Health Foods",
   description:
     "Bilingual health food reference site with structured guides, category pages, and food profiles.",
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.guthealthfoods.net",

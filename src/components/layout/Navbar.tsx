@@ -9,7 +9,7 @@ interface NavbarProps {
 export default function Navbar({ lang }: NavbarProps) {
   const navLinks = [
     { href: `/${lang}`, label: lang === "en" ? "Home" : "首页" },
-    { href: `/${lang}/foods`, label: lang === "en" ? "Foods" : "食品库" },
+    { href: `/${lang}/foods`, label: lang === "en" ? "Foods" : "食品" },
     { href: `/${lang}/guides`, label: lang === "en" ? "Guides" : "指南" },
     { href: `/${lang}/about`, label: lang === "en" ? "About" : "关于我们" },
   ];
@@ -19,9 +19,7 @@ export default function Navbar({ lang }: NavbarProps) {
       <nav className="site-shell site-nav" aria-label="Primary">
         <Link href={`/${lang}`} className="brand-link">
           <span className="brand-link__mark">G</span>
-          <span>
-            Guthu <span className="brand-link__accent">Health</span>
-          </span>
+          <span>{lang === "en" ? "Gut Health Foods" : "肠道健康食品"}</span>
         </Link>
 
         <div className="site-nav__links">

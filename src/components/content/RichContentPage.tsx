@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import type { ContentItem } from "@/lib/content";
 
 import ContentCard from "./ContentCard";
@@ -15,21 +13,14 @@ export default function RichContentPage({
   alternatePath,
   relatedItems = [],
 }: RichContentPageProps) {
+  void alternatePath;
+
   return (
     <article className="rich-page">
       <header className="rich-page__hero">
         <p className="eyebrow">{item.heroKicker ?? item.collection}</p>
         <h1>{item.heroTitle ?? item.title}</h1>
         <p className="rich-page__subtitle">{item.heroSubtitle ?? item.description}</p>
-        <div className="hero-meta">
-          <span>{item.lang === "en" ? "Updated" : "更新于"} {item.updatedAt}</span>
-          {item.readingTime ? <span>{item.readingTime}</span> : null}
-          {alternatePath ? (
-            <Link href={alternatePath}>
-              {item.lang === "en" ? "View Chinese" : "查看英文版"}
-            </Link>
-          ) : null}
-        </div>
       </header>
 
       <div className="rich-page__layout">
@@ -56,7 +47,7 @@ export default function RichContentPage({
         <section className="related-block">
           <div className="section-heading">
             <p className="section-heading__kicker">
-              {item.lang === "en" ? "Related reading" : "相关延伸"}
+              {item.lang === "en" ? "Related reading" : "相关阅读"}
             </p>
             <h2>{item.lang === "en" ? "Continue exploring" : "继续探索"}</h2>
           </div>

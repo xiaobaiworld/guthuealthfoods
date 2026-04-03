@@ -1,7 +1,7 @@
 ---
 slug: "privacy"
 title: "Privacy Policy"
-description: "Privacy Policy for Guthu Health Foods — how we handle data, cookies, and third-party services including Google AdSense and Analytics."
+description: "Privacy Policy for Gut Health Foods 閿?how we handle data, cookies, and third-party services including Google AdSense and Analytics."
 summary: "Our Privacy Policy covers data collection, cookies, Google AdSense, Google Analytics, and your rights as a visitor."
 publishedAt: "2026-03-23"
 updatedAt: "2026-03-23"
@@ -19,7 +19,7 @@ readingTime: "4 min read"
 
 ## Overview
 
-Guthu Health Foods ("we", "our", or "us") operates the website at guthealthfoods.net (the "Site"). This Privacy Policy explains how we collect, use, and protect information when you visit our Site.
+Gut Health Foods ("we", "our", or "us") operates the website at guthealthfoods.net (the "Site"). This Privacy Policy explains how we collect, use, and protect information when you visit our Site.
 
 By using the Site, you agree to the practices described in this policy.
 

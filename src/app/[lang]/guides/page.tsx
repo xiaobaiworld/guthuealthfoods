@@ -18,8 +18,8 @@ export async function generateMetadata({
     title: lang === "en" ? "Nutrition Guides" : "营养指南",
     description:
       lang === "en"
-        ? "Explore the growing guide library for Guthu Health Foods."
-        : "浏览 Guthu 健康食品不断扩展的指南内容库。",
+        ? "Explore the growing guide library for Gut Health Foods."
+        : "浏览肠道健康食品持续扩展的指南内容库。",
     pathname: `/${lang}/guides`,
   });
 }
@@ -34,8 +34,8 @@ export default async function GuidesIndex({
   const title = lang === "en" ? "Nutrition Guides" : "营养指南";
   const description =
     lang === "en"
-      ? "Explore the growing guide library for Guthu Health Foods."
-      : "浏览 Guthu 健康食品不断扩展的指南内容库。";
+      ? "Explore the growing guide library for Gut Health Foods."
+      : "浏览肠道健康食品持续扩展的指南内容库。";
   const schema = buildCollectionSchema({
     lang,
     title,
@@ -48,11 +48,11 @@ export default async function GuidesIndex({
       <JsonLd data={schema} />
       <section className="page-intro">
         <p className="eyebrow">{lang === "en" ? "Guide library" : "指南内容库"}</p>
-        <h1>{lang === "en" ? "Editorial guide pages" : "编辑型指南页面"}</h1>
+        <h1>{lang === "en" ? "Editorial guide pages" : "专题指南页面"}</h1>
         <p>
           {lang === "en"
             ? "These pages anchor the broader topic structure around the food library."
-            : "这些页面用于支撑食品资料库之外的主题性内容结构。"}
+            : "这些页面用于为食品资料库提供更完整的主题结构。"}
         </p>
       </section>
       <div className="card-grid">

@@ -20,8 +20,8 @@ export async function generateMetadata({
     title: lang === "en" ? "Health Foods Library" : "健康食品资料库",
     description:
       lang === "en"
-        ? "Browse the full bilingual food library for Guthu Health Foods."
-        : "浏览 Guthu 健康食品的完整双语食品资料库。",
+        ? "Browse the full bilingual food library for Gut Health Foods."
+        : "浏览肠道健康食品的完整双语食品资料库。",
     pathname: `/${lang}/foods`,
   });
 }
@@ -36,8 +36,8 @@ export default async function FoodsIndex({
   const title = lang === "en" ? "Health Foods Library" : "健康食品资料库";
   const description =
     lang === "en"
-      ? "Browse the full bilingual food library for Guthu Health Foods."
-      : "浏览 Guthu 健康食品的完整双语食品资料库。";
+      ? "Browse the full bilingual food library for Gut Health Foods."
+      : "浏览肠道健康食品的完整双语食品资料库。";
   const schema = buildCollectionSchema({
     lang,
     title,
@@ -54,11 +54,11 @@ export default async function FoodsIndex({
         <p>
           {lang === "en"
             ? `This route now exposes ${foods.length} food detail pages in ${lang.toUpperCase()}.`
-            : `当前路由已在 ${lang.toUpperCase()} 语言下生成 ${foods.length} 个食品详情页。`}
+            : `当前页面包含 ${foods.length} 个食品详情页。`}
         </p>
       </section>
 
-      <ContentSection title={lang === "en" ? "Browse the complete set" : "浏览完整条目"}>
+      <ContentSection title={lang === "en" ? "Browse the complete set" : "浏览完整内容"}>
         <div className="card-grid">
           {foods.map((food) => (
             <ContentCard

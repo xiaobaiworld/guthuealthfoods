@@ -1,7 +1,7 @@
 ---
 slug: "daily-healthy-eating-guide"
 title: "Daily Healthy Eating Guide"
-description: "Daily Healthy Eating Guide is a supporting editorial guide in the Guthu Health Foods library."
+description: "Daily Healthy Eating Guide is a supporting editorial guide in the Gut Health Foods library."
 summary: "Daily Healthy Eating Guide connects the food profiles into a broader topical path."
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-17"

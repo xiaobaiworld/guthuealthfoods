@@ -62,12 +62,11 @@ export function buildPageMetadata({
 }
 
 export function buildHomeMetadata(lang: Language): Metadata {
-  const title =
-    lang === "en" ? "Guthu Health Foods" : "Guthu 健康食品";
+  const title = lang === "en" ? "Gut Health Foods" : "肠道健康食品";
   const description =
     lang === "en"
       ? "Bilingual health food reference site with structured guides, category pages, and food profiles."
-      : "面向中英文用户的健康食品资料站，包含食品条目、分类页与指南页。";
+      : "面向中英文读者的健康食品知识站，包含食物条目、分类页面和专题指南。";
 
   return buildPageMetadata({
     lang,
