@@ -37,19 +37,29 @@ export default async function Home({
     <div className="home-page">
       <JsonLd data={schema} />
       <header className="site-shell home-hero">
-          <p className="eyebrow">
-            {lang === "en" ? "Bilingual health food knowledge base" : "双语健康食品知识库"}
-          </p>
-          <h1>{dict.hero.title}</h1>
-          <p className="home-hero__subtitle">{dict.hero.subtitle}</p>
-          <div className="hero-actions">
-            <Link href={`/${lang}/foods`} className="button button--primary">
-              {lang === "en" ? "Explore foods" : "浏览食品"}
-            </Link>
-            <Link href={`/${lang}/guides`} className="button button--secondary">
-              {lang === "en" ? "Read guides" : "阅读指南"}
-            </Link>
-          </div>
+        <p className="eyebrow">
+          {lang === "en" ? "Bilingual health food knowledge base" : "双语健康食品知识库"}
+        </p>
+        <h1>{dict.hero.title}</h1>
+        <p className="home-hero__subtitle">{dict.hero.subtitle}</p>
+        <div className="hero-actions">
+          <Link
+            href={`/${lang}/foods`}
+            className="button button--primary"
+            data-analytics-event="homepage_cta_click"
+            data-analytics-label={`${lang}:foods`}
+          >
+            {lang === "en" ? "Explore foods" : "浏览食品"}
+          </Link>
+          <Link
+            href={`/${lang}/guides`}
+            className="button button--secondary"
+            data-analytics-event="homepage_cta_click"
+            data-analytics-label={`${lang}:guides`}
+          >
+            {lang === "en" ? "Read guides" : "阅读指南"}
+          </Link>
+        </div>
       </header>
 
       <div className="site-shell stack-xl">

@@ -32,6 +32,10 @@ yarn-error.log*
 .pnpm-debug.log*
 .dev-server.out.log
 .dev-server.err.log
+.codex-static.out.log
+.codex-static.err.log
+.codex-static.log
+.playwright-cli/
 .npm-cache/
 
 # env files (can opt-in for committing if needed)

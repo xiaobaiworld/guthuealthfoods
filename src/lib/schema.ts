@@ -46,6 +46,7 @@ export function buildHomeSchema(lang: Language) {
       "@type": "Organization",
       name: siteConfig.name,
       url: siteConfig.url,
+      logo: buildAbsoluteUrl("/favicon.ico"),
     },
   ];
 }
@@ -119,8 +120,25 @@ export function buildContentSchema(item: ContentItem) {
       "@type": "Organization",
       name: siteConfig.name,
       url: siteConfig.url,
+      logo: {
+        "@type": "ImageObject",
+        url: buildAbsoluteUrl("/favicon.ico"),
+      },
     },
     about: [item.title, item.category ?? getLocaleName(item.lang)],
     keywords: item.tags,
+  };
+}
+
+export function buildBreadcrumbSchema(items: Array<{ name: string; pathname: string }>) {
+  return {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: items.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: item.name,
+      item: buildAbsoluteUrl(item.pathname),
+    })),
   };
 }

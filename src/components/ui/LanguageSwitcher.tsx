@@ -17,10 +17,20 @@ export default function LanguageSwitcher({ currentLang }: { currentLang: string 
 
   return (
     <div className="language-switcher">
-      <Link href={switchLang("en")} className={currentLang === "en" ? "is-active" : undefined}>
+      <Link
+        href={switchLang("en")}
+        className={currentLang === "en" ? "is-active" : undefined}
+        data-analytics-event="language_switch"
+        data-analytics-label={`${currentLang}:en`}
+      >
         EN
       </Link>
-      <Link href={switchLang("zh")} className={currentLang === "zh" ? "is-active" : undefined}>
+      <Link
+        href={switchLang("zh")}
+        className={currentLang === "zh" ? "is-active" : undefined}
+        data-analytics-event="language_switch"
+        data-analytics-label={`${currentLang}:zh`}
+      >
         中文
       </Link>
     </div>

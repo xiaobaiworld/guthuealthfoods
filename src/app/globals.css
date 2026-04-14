@@ -299,6 +299,39 @@ img {
   font-size: 0.85rem;
 }
 
+.breadcrumbs {
+  margin: 8px 0 18px;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.breadcrumbs li {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+  content: "/";
+  color: rgba(97, 114, 98, 0.6);
+}
+
+.breadcrumbs a {
+  color: var(--muted);
+}
+
+.breadcrumbs span {
+  color: var(--brand-dark);
+  font-weight: 600;
+}
+
 .rich-page {
   display: grid;
   gap: 32px;

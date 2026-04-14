@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 
 import ContentCard from "@/components/content/ContentCard";
 import RichContentPage from "@/components/content/RichContentPage";
+import Breadcrumbs from "@/components/seo/Breadcrumbs";
 import JsonLd from "@/components/seo/JsonLd";
 import {
   LANGUAGES,
@@ -11,9 +12,9 @@ import {
   getAlternateItem,
   getItemBySlug,
 } from "@/lib/content";
-import { buildContentSchema } from "@/lib/schema";
+import { buildBreadcrumbSchema, buildContentSchema } from "@/lib/schema";
 import { buildContentMetadata } from "@/lib/seo";
-import { getFoodPath } from "@/lib/site";
+import { getBasePath, getFoodPath } from "@/lib/site";
 
 export async function generateStaticParams() {
   const params = await Promise.all(
@@ -49,12 +50,25 @@ export default async function CategoryDetailPage({
   }
 
   const [alternateItem, foods] = await Promise.all([getAlternateItem(item), getAllItems("foods", lang)]);
-  const schema = buildContentSchema(item);
+  const breadcrumbs = [
+    { label: lang === "en" ? "Home" : "首页", href: getBasePath(lang) },
+    { label: lang === "en" ? "Foods" : "食品", href: `/${lang}/foods` },
+    { label: item.title },
+  ];
+  const schema = [
+    buildContentSchema(item),
+    buildBreadcrumbSchema([
+      { name: lang === "en" ? "Home" : "首页", pathname: getBasePath(lang) },
+      { name: lang === "en" ? "Foods" : "食品", pathname: `/${lang}/foods` },
+      { name: item.title, pathname: `/${lang}/foods/category/${item.slug}` },
+    ]),
+  ];
   const matchingFoods = foods.filter((food) => food.category === item.slug);
 
   return (
     <div className="site-shell stack-xl">
       <JsonLd data={schema} />
+      <Breadcrumbs items={breadcrumbs} />
       <RichContentPage
         item={item}
         alternatePath={alternateItem ? `/${alternateItem.lang}/foods/category/${alternateItem.slug}` : undefined}

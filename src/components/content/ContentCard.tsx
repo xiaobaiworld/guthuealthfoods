@@ -19,7 +19,14 @@ export default function ContentCard({
     <article className="content-card">
       {meta ? <p className="content-card__meta">{meta}</p> : null}
       <h3 className="content-card__title">
-        <Link href={href}>{title}</Link>
+        <Link
+          href={href}
+          data-analytics-event="content_card_click"
+          data-analytics-category="content"
+          data-analytics-label={href}
+        >
+          {title}
+        </Link>
       </h3>
       <p className="content-card__description">{description}</p>
       {tags.length > 0 ? (

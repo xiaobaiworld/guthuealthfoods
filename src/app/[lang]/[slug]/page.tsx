@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 
 import RichContentPage from "@/components/content/RichContentPage";
+import Breadcrumbs from "@/components/seo/Breadcrumbs";
 import JsonLd from "@/components/seo/JsonLd";
 import { LANGUAGES, getAllSlugs, getAlternateItem, getItemBySlug } from "@/lib/content";
-import { buildContentSchema } from "@/lib/schema";
+import { buildBreadcrumbSchema, buildContentSchema } from "@/lib/schema";
 import { buildContentMetadata } from "@/lib/seo";
+import { getBasePath } from "@/lib/site";
 
 export async function generateStaticParams() {
   const params = await Promise.all(
@@ -41,11 +43,22 @@ export default async function StaticPage({
   }
 
   const alternateItem = await getAlternateItem(item);
-  const schema = buildContentSchema(item);
+  const breadcrumbs = [
+    { label: lang === "en" ? "Home" : "首页", href: getBasePath(lang) },
+    { label: item.title },
+  ];
+  const schema = [
+    buildContentSchema(item),
+    buildBreadcrumbSchema([
+      { name: lang === "en" ? "Home" : "首页", pathname: getBasePath(lang) },
+      { name: item.title, pathname: `/${lang}/${item.slug}` },
+    ]),
+  ];
 
   return (
     <div className="site-shell">
       <JsonLd data={schema} />
+      <Breadcrumbs items={breadcrumbs} />
       <RichContentPage
         item={item}
         alternatePath={alternateItem ? `/${alternateItem.lang}/${alternateItem.slug}` : undefined}
