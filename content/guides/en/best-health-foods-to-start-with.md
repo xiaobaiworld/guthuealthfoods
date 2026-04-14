@@ -1,8 +1,8 @@
 ---
 slug: "best-health-foods-to-start-with"
 title: "Best Health Foods To Start With"
-description: "Best Health Foods To Start With is a supporting editorial guide in the Gut Health Foods library."
-summary: "Best Health Foods To Start With connects the food profiles into a broader topical path."
+description: "A direct list of the best health foods to start with, with links to each food profile."
+summary: "Start here for a simple, clickable list of the best health foods."
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-17"
 draft: false
@@ -11,32 +11,27 @@ relatedSlugs:
   - spinach
   - blueberries
   - olive-oil
+featuredSlugs:
+  - oats
+  - apple
+  - blueberries
+  - yogurt
+  - olive-oil
+  - spinach
+  - broccoli
+  - lentils
+  - chickpeas
+  - salmon
+  - almond
+  - walnut
+  - avocado
 heroTitle: "Best Health Foods To Start With"
-heroSubtitle: "A foundational guide page in the expanding bilingual content system."
+heroSubtitle: "A curated list of health foods that are easy to begin with and easy to keep in your routine."
+heroBody: "These foods are practical, nutrient-dense, and simple to use across breakfasts, lunches, dinners, and snacks."
 heroKicker: "Guide"
 tags:
   - overview
   - priority
   - starter
-readingTime: "5 min read"
+readingTime: "2 min read"
 ---
-## Why this guide exists
-
-Best Health Foods To Start With is part of the supporting editorial layer around the food library. It helps the site move beyond isolated detail pages and into broader topic journeys.
-
-## What the guide does in the current release
-
-- connects multiple food pages under one user intent
-- offers a more readable entry point for new visitors
-- supports future search-oriented page clusters
-- creates stronger internal link paths for the bilingual site
-
-## How this guide can expand later
-
-Future revisions can add examples, schedules, meal frameworks, short checklists, and stronger references. For now, the guide gives the project a valid route and a usable public structure.
-
-## Recommended companion areas
-
-- food detail pages for core ingredients
-- category pages for broader browsing
-- static trust pages such as mission and sourcing

@@ -24,8 +24,11 @@ export interface ContentFrontmatter {
   draft?: boolean;
   translationKey: string;
   relatedSlugs?: string[];
+  featuredSlugs?: string[];
+  featuredCategorySlugs?: string[];
   heroTitle?: string;
   heroSubtitle?: string;
+  heroBody?: string;
   heroKicker?: string;
   readingTime?: string;
 }
@@ -76,6 +79,8 @@ async function parseFile(
     draft: Boolean(frontmatter.draft),
     tags: frontmatter.tags ?? [],
     relatedSlugs: frontmatter.relatedSlugs ?? [],
+    featuredSlugs: frontmatter.featuredSlugs ?? [],
+    featuredCategorySlugs: frontmatter.featuredCategorySlugs ?? [],
     lang,
     collection,
     content,
@@ -143,6 +148,24 @@ export async function getRelatedItems(item: ContentItem) {
   );
 
   return related.filter((entry): entry is ContentItem => entry !== null);
+}
+
+export async function getFeaturedItems(item: ContentItem) {
+  const slugs = item.featuredSlugs ?? [];
+  const featured = await Promise.all(
+    slugs.map((slug) => getItemBySlug("foods", item.lang, slug)),
+  );
+
+  return featured.filter((entry): entry is ContentItem => entry !== null);
+}
+
+export async function getFeaturedCategoryItems(item: ContentItem) {
+  const slugs = item.featuredCategorySlugs ?? [];
+  const featured = await Promise.all(
+    slugs.map((slug) => getItemBySlug("categories", item.lang, slug)),
+  );
+
+  return featured.filter((entry): entry is ContentItem => entry !== null);
 }
 
 export async function getFeaturedFoods(lang: Language, limit = 6) {

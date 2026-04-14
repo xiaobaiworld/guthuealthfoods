@@ -8,6 +8,8 @@ import {
   LANGUAGES,
   getAllSlugs,
   getAlternateItem,
+  getFeaturedCategoryItems,
+  getFeaturedItems,
   getItemBySlug,
 } from "@/lib/content";
 import { buildBreadcrumbSchema, buildContentSchema } from "@/lib/schema";
@@ -48,6 +50,10 @@ export default async function GuideDetailPage({
   }
 
   const alternateItem = await getAlternateItem(item);
+  const [featuredItems, featuredCategoryItems] = await Promise.all([
+    getFeaturedItems(item),
+    getFeaturedCategoryItems(item),
+  ]);
   const breadcrumbs = [
     { label: lang === "en" ? "Home" : "首页", href: getBasePath(lang) },
     { label: lang === "en" ? "Guides" : "指南", href: `/${lang}/guides` },
@@ -69,6 +75,8 @@ export default async function GuideDetailPage({
       <RichContentPage
         item={item}
         alternatePath={alternateItem ? getGuidePath(alternateItem.lang, alternateItem.slug) : undefined}
+        featuredItems={featuredItems}
+        featuredCategoryItems={featuredCategoryItems}
       />
     </div>
   );

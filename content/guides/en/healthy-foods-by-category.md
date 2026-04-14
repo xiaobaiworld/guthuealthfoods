@@ -1,8 +1,8 @@
 ---
 slug: "healthy-foods-by-category"
 title: "Healthy Foods By Category"
-description: "Healthy Foods By Category is a supporting editorial guide in the Gut Health Foods library."
-summary: "Healthy Foods By Category connects the food profiles into a broader topical path."
+description: "Browse healthy foods by category and jump straight to the group that fits your meals, habits, or goals."
+summary: "Use categories to browse healthy foods more quickly, whether you want better fruits, vegetables, healthy fats, drinks, or staples."
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-17"
 draft: false
@@ -11,32 +11,22 @@ relatedSlugs:
   - spinach
   - blueberries
   - olive-oil
+featuredCategorySlugs:
+  - fruits
+  - leafy-greens
+  - herbs-spices
+  - nuts-seeds
+  - legumes-grains
+  - healthy-oils
+  - functional-foods
+  - drinks
 heroTitle: "Healthy Foods By Category"
-heroSubtitle: "A foundational guide page in the expanding bilingual content system."
+heroSubtitle: "Browse healthy foods by category so you can find the right starting point faster."
+heroBody: "Choose the category that matches what you want to improve first, whether that is breakfast, snacks, cooking fats, vegetables, or drinks."
 heroKicker: "Guide"
 tags:
   - categories
   - navigation
   - reference
-readingTime: "5 min read"
+readingTime: "2 min read"
 ---
-## Why this guide exists
-
-Healthy Foods By Category is part of the supporting editorial layer around the food library. It helps the site move beyond isolated detail pages and into broader topic journeys.
-
-## What the guide does in the current release
-
-- connects multiple food pages under one user intent
-- offers a more readable entry point for new visitors
-- supports future search-oriented page clusters
-- creates stronger internal link paths for the bilingual site
-
-## How this guide can expand later
-
-Future revisions can add examples, schedules, meal frameworks, short checklists, and stronger references. For now, the guide gives the project a valid route and a usable public structure.
-
-## Recommended companion areas
-
-- food detail pages for core ingredients
-- category pages for broader browsing
-- static trust pages such as mission and sourcing

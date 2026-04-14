@@ -188,6 +188,13 @@ img {
   margin-top: 16px;
 }
 
+.rich-page__hero-body {
+  font-size: 1rem;
+  color: var(--muted);
+  max-width: 72ch;
+  margin-top: 14px;
+}
+
 .button {
   display: inline-flex;
   align-items: center;
@@ -231,6 +238,30 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 20px;
+}
+
+.category-link-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.category-link-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--brand-dark);
+  font-weight: 700;
+  box-shadow: var(--shadow);
+}
+
+.category-link-pill:hover {
+  border-color: rgba(63, 122, 74, 0.35);
+  background: #f5fbf3;
 }
 
 .card-grid--compact {
@@ -342,6 +373,10 @@ img {
   grid-template-columns: minmax(0, 2.3fr) minmax(260px, 0.9fr);
   gap: 24px;
   align-items: start;
+}
+
+.rich-page__layout--single {
+  grid-template-columns: minmax(0, 1fr);
 }
 
 .rich-page__main {
