@@ -7,6 +7,13 @@ export const siteConfig = {
   url: process.env.NEXT_PUBLIC_SITE_URL || "https://www.guthealthfoods.net",
 };
 
+export const googleConfig = {
+  measurementId: process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || "G-CVQQY7LB8T",
+  siteVerification:
+    process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION ||
+    "M7JikUFaXXGcNMOHTVvFHTP4tbrlxYFzMKlTs5PWbfA",
+};
+
 export function getBasePath(lang: Language) {
   return `/${lang}`;
 }

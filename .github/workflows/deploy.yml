@@ -17,9 +17,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      NEXT_PUBLIC_GA_MEASUREMENT_ID: G-CVQQY7LB8T
-      NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION: M7JikUFaXXGcNMOHTVvFHTP4tbrlxYFzMKlTs5PWbfA
     steps:
       - name: Checkout
         uses: actions/checkout@v4
