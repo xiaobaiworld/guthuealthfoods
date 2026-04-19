@@ -413,7 +413,7 @@ img {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: minmax(0, 1.35fr) repeat(3, minmax(0, 0.88fr));
   gap: 24px;
 }
 
@@ -428,6 +428,25 @@ img {
 .site-footer h3,
 .brand-link--footer {
   color: white;
+}
+
+.site-footer h3 {
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.footer-explore {
+  justify-self: end;
+  min-width: 220px;
+}
+
+.footer-explore__link {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.45;
 }
 
 .footer-meta {

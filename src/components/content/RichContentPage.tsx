@@ -23,7 +23,7 @@ export default function RichContentPage({
   const heroDescription = isGuide
     ? item.summary || item.heroSubtitle || item.description
     : item.heroSubtitle || item.description;
-  const showSidebar = !isGuide;
+  const showSidebar = false;
   const showGuideHeroBody = Boolean(isGuide && item.heroBody);
   const showMainContent = !(
     isGuide &&

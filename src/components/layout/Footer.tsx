@@ -52,6 +52,22 @@ export default async function Footer({ lang }: FooterProps) {
             </li>
           </ul>
         </div>
+
+        <div className="footer-explore">
+          <h3>{lang === "en" ? "Useful Links" : "实用链接"}</h3>
+          <ul className="footer-list">
+            <li>
+              <a
+                className="footer-explore__link"
+                href="https://www.antiinflammatorydiets.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Anti-inflammatory diet
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
 
       <div className="site-shell footer-meta">
