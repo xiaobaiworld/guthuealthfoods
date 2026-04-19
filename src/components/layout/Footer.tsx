@@ -62,6 +62,9 @@ export default async function Footer({ lang }: FooterProps) {
                 href="https://www.antiinflammatorydiets.com/"
                 target="_blank"
                 rel="noopener noreferrer"
+                data-analytics-event="outbound_link_click"
+                data-analytics-category="outbound"
+                data-analytics-label="https://www.antiinflammatorydiets.com/"
               >
                 Anti-inflammatory diet
               </a>

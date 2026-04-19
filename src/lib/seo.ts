@@ -66,7 +66,7 @@ export function buildHomeMetadata(lang: Language): Metadata {
   const description =
     lang === "en"
       ? "Bilingual health food reference site with structured guides, category pages, and food profiles."
-      : "面向中英文读者的健康食品知识站，包含食物条目、分类页面和专题指南。";
+      : "面向中英文读者的健康食品知识站，包含食物页面、分类入口和实用指南。";
 
   return buildPageMetadata({
     lang,

@@ -39,7 +39,7 @@ export function buildHomeSchema(lang: Language) {
       description:
         lang === "en"
           ? "Bilingual health food reference site with structured guides, category pages, and food profiles."
-          : "面向中英文用户的健康食品资料站，包含食品条目、分类页与指南页。",
+          : "面向中英文读者的健康食品知识站，包含食物页面、分类入口和指南页面。",
     },
     {
       "@context": "https://schema.org",

@@ -368,6 +368,14 @@ img {
   gap: 32px;
 }
 
+.rich-page--guide {
+  gap: 22px;
+}
+
+.rich-page--guide .related-block {
+  gap: 18px;
+}
+
 .rich-page__layout {
   display: grid;
   grid-template-columns: minmax(0, 2.3fr) minmax(260px, 0.9fr);

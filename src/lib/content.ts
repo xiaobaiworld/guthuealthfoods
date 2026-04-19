@@ -41,6 +41,12 @@ export interface ContentItem extends ContentFrontmatter {
 }
 
 const CONTENT_ROOT = path.join(process.cwd(), "content");
+const PRIORITY_GUIDE_KEYS = [
+  "best-foods-for-gut-health",
+  "healthy-grocery-list",
+  "best-foods-for-beginners",
+  "foods-for-digestion",
+] as const;
 
 function getCollectionDir(collection: Collection, lang: Language) {
   return path.join(CONTENT_ROOT, collection, lang);
@@ -95,6 +101,33 @@ export async function getAllItems(
   const files = ensureCollectionDirExists(collection, lang);
   const items = await Promise.all(files.map((file) => parseFile(collection, lang, file)));
   const publishedItems = items.filter((item) => !item.draft);
+
+  if (collection === "guides") {
+    const priorityOrder = new Map<string, number>(
+      PRIORITY_GUIDE_KEYS.map((key, index) => [key, index] as const),
+    );
+
+    return publishedItems.sort((a, b) => {
+      const aKey = a.translationKey || a.slug;
+      const bKey = b.translationKey || b.slug;
+      const aPriority = priorityOrder.get(aKey);
+      const bPriority = priorityOrder.get(bKey);
+
+      if (aPriority !== undefined && bPriority !== undefined) {
+        return aPriority - bPriority;
+      }
+
+      if (aPriority !== undefined) {
+        return -1;
+      }
+
+      if (bPriority !== undefined) {
+        return 1;
+      }
+
+      return a.title.localeCompare(b.title);
+    });
+  }
 
   if (collection === "foods" && lang === "zh") {
     const englishFiles = ensureCollectionDirExists(collection, "en");

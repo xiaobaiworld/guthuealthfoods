@@ -30,9 +30,10 @@ export default function RichContentPage({
     (featuredItems.length > 0 || featuredCategoryItems.length > 0) &&
     !item.html.trim()
   );
+  const articleClassName = `rich-page${isGuide ? " rich-page--guide" : ""}`;
 
   return (
-    <article className="rich-page">
+    <article className={articleClassName}>
       <header className="rich-page__hero">
         <p className="eyebrow">{item.heroKicker ?? item.collection}</p>
         <h1>{item.heroTitle ?? item.title}</h1>
@@ -91,12 +92,14 @@ export default function RichContentPage({
 
       {featuredItems.length > 0 ? (
         <section className="related-block">
-          <div className="section-heading">
-            <p className="section-heading__kicker">
-              {item.lang === "en" ? "Recommended foods" : "推荐食品"}
-            </p>
-            <h2>{item.lang === "en" ? "Foods to start with" : "适合开始的食品"}</h2>
-          </div>
+          {isGuide ? null : (
+            <div className="section-heading">
+              <p className="section-heading__kicker">
+                {item.lang === "en" ? "Recommended foods" : "推荐食品"}
+              </p>
+              <h2>{item.lang === "en" ? "Foods to start with" : "适合开始的食品"}</h2>
+            </div>
+          )}
           <div className="card-grid">
             {featuredItems.map((featured) => (
               <ContentCard
