@@ -4,8 +4,8 @@ import type { Metadata } from "next";
 import ContentCard from "@/components/content/ContentCard";
 import ContentSection from "@/components/content/ContentSection";
 import JsonLd from "@/components/seo/JsonLd";
-import { getFeaturedCategories, getFeaturedFoods, getFeaturedGuides } from "@/lib/content";
 import { getDictionary } from "@/i18n/get-dictionary";
+import { getFeaturedCategories, getFeaturedFoods, getFeaturedGuides } from "@/lib/content";
 import { buildHomeSchema } from "@/lib/schema";
 import { buildHomeMetadata } from "@/lib/seo";
 import { getCategoryPath, getFoodPath, getGuidePath } from "@/lib/site";
@@ -36,6 +36,7 @@ export default async function Home({
   return (
     <div className="home-page">
       <JsonLd data={schema} />
+
       <header className="site-shell home-hero">
         <p className="eyebrow">
           {lang === "en" ? "Bilingual health food knowledge base" : "双语健康食品知识库"}

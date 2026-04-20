@@ -54,11 +54,13 @@ export default async function GuideDetailPage({
     getFeaturedItems(item),
     getFeaturedCategoryItems(item),
   ]);
+
   const breadcrumbs = [
     { label: lang === "en" ? "Home" : "首页", href: getBasePath(lang) },
     { label: lang === "en" ? "Guides" : "指南", href: `/${lang}/guides` },
     { label: item.title },
   ];
+
   const schema = [
     buildContentSchema(item),
     buildBreadcrumbSchema([

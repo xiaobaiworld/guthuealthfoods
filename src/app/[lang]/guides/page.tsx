@@ -55,6 +55,7 @@ export default async function GuidesIndex({
             : "这些页面会用更直接的方式帮助读者从食物清单、分类入口和日常饮食问题开始浏览。"}
         </p>
       </section>
+
       <div className="card-grid">
         {guides.map((guide) => (
           <ContentCard
