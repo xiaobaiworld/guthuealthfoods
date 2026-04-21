@@ -2,6 +2,7 @@
 slug: "almond"
 description: "杏仁富含单不饱和脂肪酸、维生素E、镁和植物蛋白，是公认的护心食品，对血糖控制与骨骼健康也有显著支持作用。"
 summary: "杏仁是营养密度极高的坚果，其出色的维生素E含量、健康脂肪组成以及丰富的矿物质，使其成为全球研究最为广泛的零食类食品之一。"
+image: "/images/foods/almond-hero.jpg"
 category: "nuts-seeds"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

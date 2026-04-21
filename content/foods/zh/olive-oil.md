@@ -2,6 +2,7 @@
 slug: "olive-oil"
 description: "特级初榨橄榄油是从新鲜橄榄冷压提取的油脂，是地中海饮食的核心脂肪来源，也是心血管健康和长寿益处研究最充分的食物之一。"
 summary: "特级初榨橄榄油富含油橄榄刺激醛、角鲨烯和单不饱和脂肪——作为地中海饮食的基石，拥有数十年心脏健康和长寿的临床证据。"
+image: "/images/foods/olive-oil-hero.jpg"
 category: "healthy-oils"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

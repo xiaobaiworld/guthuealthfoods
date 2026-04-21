@@ -1,7 +1,8 @@
----
+﻿---
 slug: "soy-milk"
 description: "豆奶是以整粒大豆为原料制成的植物性饮品，提供完整蛋白质、异黄酮及必需脂肪酸，是牛奶的优质营养替代选择。"
 summary: "豆奶是营养最为全面的植物奶之一，含有完整蛋白质和与心血管、骨骼健康相关的异黄酮，以及有益的不饱和脂肪。"
+image: "/images/foods/soy-milk-hero.jpg"
 category: "drinks"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

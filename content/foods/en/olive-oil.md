@@ -2,6 +2,7 @@
 slug: "olive-oil"
 description: "Extra virgin olive oil is a cold-pressed oil from fresh olives, the cornerstone fat of the Mediterranean diet and one of the most researched foods for cardiovascular and longevity benefits."
 summary: "Extra virgin olive oil is rich in oleocanthal, squalene, and monounsaturated fats — a cornerstone of the Mediterranean diet with decades of clinical evidence for heart health and longevity."
+image: "/images/foods/olive-oil-hero.jpg"
 category: "healthy-oils"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

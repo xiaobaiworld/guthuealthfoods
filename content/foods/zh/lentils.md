@@ -1,7 +1,8 @@
----
+﻿---
 slug: "lentils"
 description: "小扁豆是富含植物蛋白、膳食纤维、铁和叶酸的豆科作物，已有超过8000年的栽培历史，是全球植物性饮食的核心食材之一。"
 summary: "小扁豆提供出色的植物蛋白、可溶性膳食纤维和关键矿物质，是营养最为全面的豆类之一。"
+image: "/images/foods/lentils-hero.jpg"
 category: "legumes-grains"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

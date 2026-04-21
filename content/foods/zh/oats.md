@@ -2,6 +2,7 @@
 slug: "oats"
 description: "燕麦是富含β-葡聚糖纤维、复合碳水化合物和关键矿物质的全谷物，是研究最充分的心血管和代谢健康谷物之一。"
 summary: "燕麦因含有独特的β-葡聚糖而与其他谷物区分开来——这种纤维经临床验证可降低LDL胆固醇、调节血糖，并支持健康的肠道菌群。"
+image: "/images/foods/oats-hero.jpg"
 category: "legumes-grains"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

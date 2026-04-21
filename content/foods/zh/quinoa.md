@@ -1,7 +1,8 @@
----
+﻿---
 slug: "quinoa"
 description: "藜麦是原产于安第斯山脉的无麸质种子，可作谷物食用，是少数含有全部九种必需氨基酸的植物性食物之一。"
 summary: "藜麦是营养完整的伪谷物，提供所有必需氨基酸、高含量铁和镁，以及低于大多数谷物的升糖指数。"
+image: "/images/foods/quinoa-hero.jpg"
 category: "legumes-grains"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -48,7 +48,12 @@ export default async function Home({
             href={`/${lang}/foods`}
             className="button button--primary"
             data-analytics-event="homepage_cta_click"
+            data-analytics-category="navigation"
             data-analytics-label={`${lang}:foods`}
+            data-analytics-lang={lang}
+            data-analytics-page-type="home"
+            data-analytics-content-type="food_library"
+            data-analytics-destination={`/${lang}/foods`}
           >
             {lang === "en" ? "Explore foods" : "浏览食品"}
           </Link>
@@ -56,7 +61,12 @@ export default async function Home({
             href={`/${lang}/guides`}
             className="button button--secondary"
             data-analytics-event="homepage_cta_click"
+            data-analytics-category="navigation"
             data-analytics-label={`${lang}:guides`}
+            data-analytics-lang={lang}
+            data-analytics-page-type="home"
+            data-analytics-content-type="guide_library"
+            data-analytics-destination={`/${lang}/guides`}
           >
             {lang === "en" ? "Read guides" : "阅读指南"}
           </Link>

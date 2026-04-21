@@ -1,7 +1,8 @@
----
+﻿---
 slug: "sardines"
 description: "沙丁鱼是小型多脂海鱼，富含欧米伽-3脂肪酸、完整蛋白质和促进骨骼健康的钙质，是营养密度最高的食物之一。"
 summary: "沙丁鱼以其卓越的欧米伽-3、蛋白质、维生素D和钙质含量，在可持续、经济实惠的前提下，全面支持心脏、大脑和骨骼健康。"
+image: "/images/foods/sardines-hero.jpg"
 category: "functional-foods"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

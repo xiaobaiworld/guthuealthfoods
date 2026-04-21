@@ -2,6 +2,7 @@
 slug: "almond"
 description: "Almonds are nutrient-dense tree nuts packed with healthy fats, vitamin E, magnesium, and protein — a well-studied food for heart and metabolic health."
 summary: "Almonds are one of the most nutritionally complete tree nuts, offering heart-healthy monounsaturated fats, vitamin E, magnesium, and fiber in every handful."
+image: "/images/foods/almond-hero.jpg"
 category: "nuts-seeds"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

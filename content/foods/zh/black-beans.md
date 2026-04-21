@@ -1,7 +1,8 @@
----
+﻿---
 slug: "black-beans"
 description: "黑豆富含植物蛋白、膳食纤维、花青素和多种矿物质，是改善肠道健康、稳定血糖、降低心血管风险的高价值豆类食品。"
 summary: "黑豆是拉丁美洲与加勒比海饮食文化的核心食材，其异常高的花青素含量使其在所有豆类中具备独一无二的抗氧化优势，同时兼具蛋白质、纤维与矿物质的完整营养谱。"
+image: "/images/foods/black-beans-hero.jpg"
 category: "legumes-grains"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

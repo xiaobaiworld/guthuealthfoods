@@ -1,7 +1,8 @@
----
+﻿---
 slug: "walnut"
 description: "核桃是欧米伽-3含量最高的坚果，同时富含多酚、褪黑素和精氨酸，有助于支持大脑、心脏和肠道健康。"
 summary: "核桃富含α-亚麻酸（ALA）、多酚和褪黑素，临床试验一致证实，定期食用核桃可带来显著的心血管和认知健康改善。"
+image: "/images/foods/walnut-hero.jpg"
 category: "nuts-seeds"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

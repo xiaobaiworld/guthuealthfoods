@@ -2,6 +2,7 @@
 slug: "spinach"
 description: "菠菜是营养密度极高的绿叶蔬菜，富含铁、叶酸、维生素K与维生素A，以及护眼叶黄素，是支持血液、骨骼和眼睛健康的基础性食物。"
 summary: "菠菜在低热量的前提下提供出众的叶酸、维生素K、叶黄素和非血红素铁含量，有助于健康造血、视力保护和心血管功能。"
+image: "/images/foods/spinach-leaf-hero.jpg"
 category: "leafy-greens"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

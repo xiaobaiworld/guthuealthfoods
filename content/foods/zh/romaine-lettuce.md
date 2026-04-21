@@ -1,7 +1,8 @@
----
+﻿---
 slug: "romaine-lettuce"
 description: "罗马生菜是一种脆嫩的绿叶蔬菜，以其每卡路里的维生素K和维生素A含量极高而著称，是营养密度最高的沙拉基底之一。"
 summary: "罗马生菜以低于15卡路里的热量提供出色的维生素K、叶酸和β-胡萝卜素，营养密度远超其貌不扬的外表。"
+image: "/images/foods/romaine-lettuce-hero.jpg"
 category: "leafy-greens"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

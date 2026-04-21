@@ -2,6 +2,7 @@
 slug: "salmon"
 description: "三文鱼是富含omega-3脂肪酸、高质量蛋白质和虾青素的脂肪鱼，虾青素是一种具有广泛健康益处的类胡萝卜素抗氧化剂。"
 summary: "三文鱼每份提供的omega-3脂肪酸几乎超过任何其他食物，配合完整蛋白质和虾青素，全面支持心脏、大脑、关节和皮肤健康。"
+image: "/images/foods/salmon-hero.jpg"
 category: "functional-foods"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -1,7 +1,8 @@
----
+﻿---
 slug: "kale"
 description: "羽衣甘蓝是营养密度最高的绿叶蔬菜之一，富含维生素K、C、A，以及抗氧化物和具有防癌作用的葡萄糖苷。"
 summary: "羽衣甘蓝含有丰富的维生素、矿物质和保护性植物化合物——包括葡萄糖苷、叶黄素和槲皮素——是长期健康最具功效的蔬菜之一。"
+image: "/images/foods/kale-hero.jpg"
 category: "leafy-greens"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

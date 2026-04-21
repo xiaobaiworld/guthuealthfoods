@@ -1,7 +1,8 @@
----
+﻿---
 slug: "flaxseed-oil"
 description: "Flaxseed oil is a cold-pressed oil exceptionally rich in plant-based omega-3 ALA, offering powerful anti-inflammatory and cardiovascular benefits when used unheated."
 summary: "Flaxseed oil delivers the highest concentration of plant omega-3 ALA of any cooking oil, making it a potent daily supplement for inflammation reduction, heart health, and skin nourishment — though it must always be used cold."
+image: "/images/foods/flaxseed-oil-hero.jpg"
 category: "healthy-oils"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -2,6 +2,7 @@
 slug: "apple"
 description: "苹果富含槲皮素、果胶和多酚类物质，在改善肠道微生物群、降低心血管疾病风险以及稳定血糖方面具有广泛的科学证据支持。"
 summary: "一天一苹果背后有坚实的营养学依据：苹果独特的可溶性纤维与多酚组合，对肠道、心脏和代谢健康均有可观的循证功效。"
+image: "/images/foods/apple-hero.jpg"
 category: "fruits"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

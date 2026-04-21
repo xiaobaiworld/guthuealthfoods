@@ -2,6 +2,7 @@
 slug: "oats"
 description: "Oats are a whole grain cereal rich in beta-glucan fiber, complex carbohydrates, and key minerals — one of the most extensively studied grains for cardiovascular and metabolic health."
 summary: "Oats stand apart from other grains thanks to their unique beta-glucan content, which clinically lowers LDL cholesterol, regulates blood sugar, and supports a healthy gut microbiome."
+image: "/images/foods/oats-hero.jpg"
 category: "legumes-grains"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

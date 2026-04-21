@@ -1,7 +1,8 @@
----
+﻿---
 slug: "green-tea"
 description: "绿茶是世界上消费最广泛的饮品之一，富含儿茶素——尤其是EGCG——可提供卓越的抗氧化、代谢和大脑健康益处。"
 summary: "绿茶提供EGCG儿茶素与L-茶氨酸的独特组合，兼具强效抗氧化保护、代谢支持、平静专注和长期疾病预防的充分循证依据。"
+image: "/images/foods/green-tea-hero.jpg"
 category: "drinks"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

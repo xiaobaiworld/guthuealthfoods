@@ -2,6 +2,7 @@
 slug: "blueberries"
 description: "蓝莓含有极高浓度的花青素、维生素C和膳食纤维，在护脑、护心和血糖调节方面拥有强大的循证支持，是营养学研究最深入的浆果类食品。"
 summary: "蓝莓以其无与伦比的花青素浓度在水果界独树一帜，已有数百项研究证实其对认知功能、心血管健康和血糖调节的积极作用。"
+image: "/images/foods/blueberries-hero.jpg"
 category: "fruits"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

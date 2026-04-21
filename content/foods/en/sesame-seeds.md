@@ -1,7 +1,8 @@
----
+﻿---
 slug: "sesame-seeds"
 description: "Sesame seeds are tiny, oil-rich seeds delivering calcium, iron, zinc, and unique antioxidant lignans that support bone health, hormone balance, and cardiovascular function."
 summary: "Sesame seeds are one of the most calcium-dense plant foods, also providing iron, zinc, healthy fats, and the antioxidant lignans sesamin and sesamolin."
+image: "/images/foods/sesame-seeds-hero.jpg"
 category: "nuts-seeds"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

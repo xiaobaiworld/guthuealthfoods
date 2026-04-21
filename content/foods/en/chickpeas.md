@@ -1,7 +1,8 @@
----
+﻿---
 slug: "chickpeas"
 description: "Chickpeas are a protein- and fiber-rich legume with ancient roots, offering exceptional benefits for blood sugar control, cardiovascular health, weight management, and gut microbiome diversity."
 summary: "One of the world's oldest cultivated crops, chickpeas deliver an impressive combination of plant protein, soluble fiber, folate, and iron that makes them a nutritional cornerstone of Mediterranean and Middle Eastern diets."
+image: "/images/foods/chickpeas-hero.jpg"
 category: "legumes-grains"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

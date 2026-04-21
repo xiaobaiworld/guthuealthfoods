@@ -2,6 +2,7 @@
 slug: "yogurt"
 description: "Yogurt is a fermented dairy food teeming with live probiotic cultures that support gut microbiome diversity, alongside protein, calcium, and B vitamins for bone and metabolic health."
 summary: "Yogurt delivers live probiotic bacteria, high-quality protein, and bioavailable calcium in a fermented form that improves lactose tolerance, supports immunity, and promotes gut microbiome diversity."
+image: "/images/foods/yogurt-hero.jpg"
 category: "functional-foods"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

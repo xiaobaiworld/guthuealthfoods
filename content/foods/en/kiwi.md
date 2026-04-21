@@ -1,7 +1,8 @@
----
+﻿---
 slug: "kiwi"
 description: "Kiwi is a small, nutrient-dense fruit exceptionally rich in vitamin C, vitamin K, and digestive enzymes, with well-documented benefits for immunity, sleep quality, and gut health."
 summary: "Kiwi delivers more vitamin C per gram than oranges, along with actinidin enzyme for protein digestion, serotonin precursors for sleep support, and prebiotic fiber for gut health — making it one of the most functionally rich small fruits."
+image: "/images/foods/kiwi-hero.jpg"
 category: "fruits"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

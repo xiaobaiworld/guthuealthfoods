@@ -259,6 +259,38 @@ img {
   box-shadow: var(--shadow);
 }
 
+.rich-page__hero--with-media {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(280px, 0.9fr);
+  gap: 40px;
+  align-items: center;
+}
+
+.rich-page__hero-copy {
+  min-width: 0;
+}
+
+.rich-page__hero-media {
+  display: flex;
+  justify-content: center;
+}
+
+.rich-page__hero-image-link {
+  display: inline-flex;
+  width: min(100%, 240px);
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 28px;
+  box-shadow: 0 20px 48px rgba(64, 78, 53, 0.12);
+}
+
+.rich-page__hero-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
 .category-link-pill:hover {
   border-color: rgba(63, 122, 74, 0.35);
   background: #f5fbf3;
@@ -477,6 +509,11 @@ img {
   .footer-grid,
   .rich-page__layout {
     grid-template-columns: 1fr;
+  }
+
+  .rich-page__hero--with-media {
+    grid-template-columns: 1fr;
+    gap: 24px;
   }
 
   .site-nav {

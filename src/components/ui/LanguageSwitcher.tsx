@@ -15,21 +15,32 @@ export default function LanguageSwitcher({ currentLang }: { currentLang: string 
     return segments.join("/") || `/${newLang}`;
   };
 
+  const enHref = switchLang("en");
+  const zhHref = switchLang("zh");
+
   return (
     <div className="language-switcher">
       <Link
-        href={switchLang("en")}
+        href={enHref}
         className={currentLang === "en" ? "is-active" : undefined}
         data-analytics-event="language_switch"
+        data-analytics-category="navigation"
         data-analytics-label={`${currentLang}:en`}
+        data-analytics-lang={currentLang}
+        data-analytics-content-type="language"
+        data-analytics-destination={enHref}
       >
         EN
       </Link>
       <Link
-        href={switchLang("zh")}
+        href={zhHref}
         className={currentLang === "zh" ? "is-active" : undefined}
         data-analytics-event="language_switch"
+        data-analytics-category="navigation"
         data-analytics-label={`${currentLang}:zh`}
+        data-analytics-lang={currentLang}
+        data-analytics-content-type="language"
+        data-analytics-destination={zhHref}
       >
         中文
       </Link>

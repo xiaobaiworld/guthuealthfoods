@@ -1,7 +1,8 @@
----
+﻿---
 slug: "walnut"
 description: "Walnuts are tree nuts with the highest plant-based omega-3 content of any nut, alongside polyphenols, melatonin, and arginine that support brain, heart, and gut health."
 summary: "Walnuts are uniquely rich in alpha-linolenic acid (ALA), polyphenols, and melatonin — clinical trials consistently link regular walnut consumption to improved cardiovascular and cognitive outcomes."
+image: "/images/foods/walnut-hero.jpg"
 category: "nuts-seeds"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

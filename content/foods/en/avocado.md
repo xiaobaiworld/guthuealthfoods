@@ -2,6 +2,7 @@
 slug: "avocado"
 description: "Avocados are uniquely fat-rich fruits loaded with monounsaturated fats, potassium, folate, and fiber — a powerful food for heart health and nutrient absorption."
 summary: "Avocados stand out among fruits for their high content of heart-healthy monounsaturated fats, potassium, folate, and fat-soluble nutrient absorption."
+image: "/images/foods/avocado-hero.jpg"
 category: "fruits"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

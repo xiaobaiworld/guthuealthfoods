@@ -1,7 +1,8 @@
----
+﻿---
 slug: "chickpeas"
 description: "鹰嘴豆是世界上最古老的栽培豆类之一，以其丰富的植物蛋白、膳食纤维、叶酸和矿物质，在血糖稳定、心血管保护、肠道健康和体重管理方面积累了充分的循证研究。"
 summary: "起源于中东、传播至全球的鹰嘴豆，以植物蛋白、可溶性纤维和抗性淀粉的完美组合，成为地中海与印度饮食体系中最重要的豆类食材，并被现代营养学反复证实其多维度健康功效。"
+image: "/images/foods/chickpeas-hero.jpg"
 category: "legumes-grains"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

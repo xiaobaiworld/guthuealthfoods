@@ -1,7 +1,8 @@
----
+﻿---
 slug: "sesame-oil"
 description: "Sesame oil is a richly flavoured culinary oil pressed from sesame seeds, prized for its antioxidant lignans, heart-healthy unsaturated fats, and stability during cooking."
 summary: "Sesame oil provides sesamol, sesamin, oleic and linoleic acids, and vitamin E — a versatile oil used across Asian and Middle Eastern cuisines with proven antioxidant properties."
+image: "/images/foods/sesame-oil-hero.jpg"
 category: "healthy-oils"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

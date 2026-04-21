@@ -1,7 +1,8 @@
----
+﻿---
 slug: "romaine-lettuce"
 description: "Romaine lettuce is a crisp leafy green with remarkably high vitamin K and vitamin A content for its calorie count, making it one of the most nutrient-dense salad bases available."
 summary: "Romaine lettuce punches well above its weight nutritionally — delivering exceptional amounts of vitamin K, folate, and beta-carotene at fewer than 15 calories per cup."
+image: "/images/foods/romaine-lettuce-hero.jpg"
 category: "leafy-greens"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

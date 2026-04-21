@@ -1,7 +1,8 @@
----
+﻿---
 slug: "oat-milk"
 description: "燕麦奶是由燕麦与水混合研磨过滤制成的植物奶，口感细腻，含有一定量的β-葡聚糖纤维，通常还强化了钙、维生素D和B12。"
 summary: "燕麦奶是环境友好、最适合咖啡馆使用的植物奶，天然带有淡淡甜味，通常强化钙、维生素D和B12等关键营养素。"
+image: "/images/foods/oat-milk-hero.jpg"
 category: "drinks"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

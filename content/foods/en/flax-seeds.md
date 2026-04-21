@@ -1,7 +1,8 @@
----
+﻿---
 slug: "flax-seeds"
 description: "Flax seeds are tiny powerhouses of omega-3 fatty acids, lignans, and soluble fiber, offering exceptional benefits for heart health, hormonal balance, and digestive regularity."
 summary: "Flax seeds provide the richest plant source of alpha-linolenic acid (ALA omega-3), plus lignans that support hormonal health, and soluble fiber that feeds the gut microbiome and lowers cholesterol."
+image: "/images/foods/flax-seeds-hero.jpg"
 category: "nuts-seeds"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -1,7 +1,8 @@
----
+﻿---
 slug: "kefir"
 description: "开菲尔是一种发酵乳饮品，具有独特多样的益生菌谱，含有多达61种有益菌和酵母菌，对肠道健康和免疫力具有强效支持作用。"
 summary: "开菲尔提供比酸奶更复杂多样的益生菌，以及高质量蛋白质、钙和维生素K2，是对肠道微生物群最有效的发酵食品之一。"
+image: "/images/foods/kefir-hero.jpg"
 category: "drinks"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

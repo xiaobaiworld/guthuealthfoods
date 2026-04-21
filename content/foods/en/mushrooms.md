@@ -1,7 +1,8 @@
----
+﻿---
 slug: "mushrooms"
 description: "Mushrooms are edible fungi that deliver unique compounds — including beta-glucans, ergothioneine, and vitamin D — that support immune function, brain health, and metabolic balance."
 summary: "Mushrooms are among the few non-animal foods that provide vitamin D and ergothioneine, alongside powerful immune-modulating beta-glucans not found in any plant food."
+image: "/images/foods/mushrooms-hero.jpg"
 category: "functional-foods"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

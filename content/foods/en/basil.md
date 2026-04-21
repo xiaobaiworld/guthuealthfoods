@@ -1,7 +1,8 @@
----
+﻿---
 slug: "basil"
 description: "Basil is an aromatic culinary herb rich in vitamin K, antioxidant flavonoids, and volatile oils with documented anti-inflammatory and antimicrobial properties."
 summary: "Basil contributes more than flavor — its essential oils, vitamin K, and polyphenols offer anti-inflammatory and antimicrobial benefits alongside culinary versatility."
+image: "/images/foods/basil-hero.jpg"
 category: "herbs-spices"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

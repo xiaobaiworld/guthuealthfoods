@@ -1,7 +1,8 @@
----
+﻿---
 slug: "kombucha"
 description: "Kombucha is a fermented tea beverage produced by a symbiotic culture of bacteria and yeast (SCOBY), offering probiotics, organic acids, and antioxidants with benefits for gut health and detoxification."
 summary: "Kombucha delivers a unique combination of live probiotics, organic acids, B vitamins, and antioxidants from its fermented tea base, supporting digestive health, liver function, and metabolic balance — with an effervescent, pleasantly tangy flavor."
+image: "/images/foods/kombucha-hero.jpg"
 category: "drinks"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

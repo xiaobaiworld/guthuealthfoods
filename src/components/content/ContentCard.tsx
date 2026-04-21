@@ -1,5 +1,7 @@
 import Link from "next/link";
 
+import { getAnalyticsContentTypeFromHref } from "@/lib/analytics";
+
 interface ContentCardProps {
   title: string;
   description: string;
@@ -15,6 +17,9 @@ export default function ContentCard({
   meta,
   tags = [],
 }: ContentCardProps) {
+  const contentType = getAnalyticsContentTypeFromHref(href);
+  const slug = href.split("/").filter(Boolean).pop();
+
   return (
     <article className="content-card">
       {meta ? <p className="content-card__meta">{meta}</p> : null}
@@ -24,6 +29,9 @@ export default function ContentCard({
           data-analytics-event="content_card_click"
           data-analytics-category="content"
           data-analytics-label={href}
+          data-analytics-content-type={contentType}
+          data-analytics-slug={slug}
+          data-analytics-destination={href}
         >
           {title}
         </Link>

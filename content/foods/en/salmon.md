@@ -2,6 +2,7 @@
 slug: "salmon"
 description: "Salmon is a fatty fish and one of the richest dietary sources of omega-3 fatty acids, high-quality protein, and astaxanthin — a carotenoid antioxidant with broad health benefits."
 summary: "Salmon delivers more omega-3 fatty acids per serving than almost any other food, alongside complete protein and astaxanthin, supporting heart, brain, joint, and skin health."
+image: "/images/foods/salmon-hero.jpg"
 category: "functional-foods"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -1,7 +1,8 @@
----
+﻿---
 slug: "coconut-oil"
 description: "Coconut oil is a tropical fat rich in medium-chain triglycerides, widely used in cooking, baking, and skin care for its unique metabolic and antimicrobial properties."
 summary: "Coconut oil's high concentration of medium-chain triglycerides sets it apart from most other fats, offering quick energy, antimicrobial effects, and culinary versatility — though its saturated fat content warrants mindful use."
+image: "/images/foods/coconut-oil-hero.jpg"
 category: "healthy-oils"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

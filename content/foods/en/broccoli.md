@@ -1,7 +1,8 @@
----
+﻿---
 slug: "broccoli"
 description: "Broccoli is one of the most nutrient-dense vegetables available, delivering exceptional amounts of vitamin C, vitamin K, folate, and the cancer-fighting compound sulforaphane."
 summary: "A cruciferous powerhouse originating from the Mediterranean, broccoli offers an unmatched combination of vitamins, minerals, fiber, and anti-cancer phytochemicals that make it a cornerstone of evidence-based healthy eating."
+image: "/images/foods/broccoli-hero.jpg"
 category: "leafy-greens"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

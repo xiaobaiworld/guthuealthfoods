@@ -1,7 +1,8 @@
----
+﻿---
 slug: "broccoli"
 description: "西兰花是营养密度最高的蔬菜之一，以其抗癌化合物萝卜硫素、丰富的维生素C、维生素K、叶酸和膳食纤维，在肿瘤预防、心血管保护和血糖管理方面拥有极为充分的科学证据。"
 summary: "作为十字花科蔬菜的代表，西兰花因其极高的萝卜硫素含量而成为迄今研究最深入的防癌蔬菜，同时以丰富的维生素C、K和纤维全面支持心脏、骨骼与代谢健康。"
+image: "/images/foods/broccoli-hero.jpg"
 category: "leafy-greens"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

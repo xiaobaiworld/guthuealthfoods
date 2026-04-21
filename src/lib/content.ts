@@ -17,6 +17,7 @@ export interface ContentFrontmatter {
   title: string;
   description: string;
   summary: string;
+  image?: string;
   category?: string;
   tags?: string[];
   publishedAt: string;

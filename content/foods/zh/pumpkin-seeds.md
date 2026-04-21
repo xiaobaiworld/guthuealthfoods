@@ -1,7 +1,8 @@
----
+﻿---
 slug: "pumpkin-seeds"
 description: "南瓜籽是富含镁、锌、健康脂肪和色氨酸的高营养密度种子，对睡眠、免疫力和心脏健康有实质性益处。"
 summary: "南瓜籽是植物性食物中镁和锌含量最高的来源之一，其独特的脂肪和氨基酸构成有助于维护心血管健康、免疫功能和优质睡眠。"
+image: "/images/foods/pumpkin-seeds-hero.jpg"
 category: "nuts-seeds"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

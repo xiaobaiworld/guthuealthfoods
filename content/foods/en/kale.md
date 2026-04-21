@@ -1,7 +1,8 @@
----
+﻿---
 slug: "kale"
 description: "Kale is one of the most nutrient-dense leafy greens available, exceptionally rich in vitamins K, C, and A, antioxidants, and cancer-preventive glucosinolates."
 summary: "Kale offers an extraordinary concentration of vitamins, minerals, and protective plant compounds — including glucosinolates, lutein, and quercetin — making it one of the most powerful vegetables for long-term health."
+image: "/images/foods/kale-hero.jpg"
 category: "leafy-greens"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -1,7 +1,8 @@
----
+﻿---
 slug: "matcha"
 description: "Matcha is a finely ground green tea powder from Japan, prized for its concentrated antioxidants, calm energy, and centuries-long role in traditional tea culture."
 summary: "Matcha delivers a uniquely high concentration of catechins, L-theanine, and chlorophyll, providing sustained mental clarity alongside powerful antioxidant protection."
+image: "/images/foods/matcha-hero.jpg"
 category: "drinks"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

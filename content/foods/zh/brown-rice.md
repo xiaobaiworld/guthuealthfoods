@@ -1,7 +1,8 @@
----
+﻿---
 slug: "brown-rice"
 description: "糙米保留了白米研磨过程中去除的麸皮和胚芽，提供白米所缺乏的B族维生素、锰、镁和膳食纤维，在血糖控制、肠道健康和心血管保护方面具有显著优势。"
 summary: "糙米是稻谷去除外壳后的完整全谷物形态，其保留的麸皮和胚芽层含有白米所欠缺的绝大部分营养素，是以米食为主食人群最重要的饮食升级之一。"
+image: "/images/foods/brown-rice-hero.jpg"
 category: "legumes-grains"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

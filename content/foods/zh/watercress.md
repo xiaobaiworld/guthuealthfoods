@@ -1,7 +1,8 @@
----
+﻿---
 slug: "watercress"
 description: "西洋菜是水生绿叶蔬菜，在已发表的营养评分系统中被评为营养密度最高的蔬菜，富含葡萄糖苷酸、维生素K和维生素C。"
 summary: "西洋菜荣登美国疾控中心超级食品排行榜榜首，含有葡萄糖苷酸、维生素K、维生素C和β-胡萝卜素，具有充分的抗癌和骨骼保护循证依据。"
+image: "/images/foods/watercress-hero.jpg"
 category: "leafy-greens"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

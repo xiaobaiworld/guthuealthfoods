@@ -2,6 +2,7 @@
 slug: "avocado"
 description: "牛油果富含单不饱和脂肪酸、钾、叶酸及多种脂溶性抗氧化剂，是少数以脂肪为主要能量来源的水果，对心血管健康与营养素吸收具有显著帮助。"
 summary: "牛油果是植物界中少有的高脂水果，其独特的脂肪酸组成与丰富的钾、叶酸、叶黄素含量，使其成为心脏保护、眼部健康与营养素协同吸收的理想食物。"
+image: "/images/foods/avocado-hero.jpg"
 category: "fruits"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

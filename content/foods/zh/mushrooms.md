@@ -1,7 +1,8 @@
----
+﻿---
 slug: "mushrooms"
 description: "蘑菇是含有β-葡聚糖、麦角硫因和维生素D的可食用真菌，在支持免疫功能、大脑健康和代谢平衡方面具有独特价值。"
 summary: "蘑菇是少数提供维生素D和麦角硫因的非动物性食物，同时含有植物界中不存在的强效免疫调节β-葡聚糖。"
+image: "/images/foods/mushrooms-hero.jpg"
 category: "functional-foods"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -1,7 +1,8 @@
----
+﻿---
 slug: "quinoa"
 description: "Quinoa is a gluten-free seed from the Andes that functions as a grain, notable for being one of the only plant foods that contains all nine essential amino acids in meaningful proportions."
 summary: "Quinoa is a nutritionally complete pseudo-grain delivering all essential amino acids, high iron and magnesium content, and a lower glycemic index than most grains."
+image: "/images/foods/quinoa-hero.jpg"
 category: "legumes-grains"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

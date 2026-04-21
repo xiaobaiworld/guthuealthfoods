@@ -4,6 +4,8 @@ import Script from "next/script";
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 
+import { getAnalyticsPageContext } from "@/lib/analytics";
+
 declare global {
   interface Window {
     dataLayer: unknown[];
@@ -13,6 +15,10 @@ declare global {
 
 interface GoogleAnalyticsProps {
   measurementId: string;
+}
+
+interface AnalyticsEventParams {
+  [key: string]: string | number | undefined;
 }
 
 function trackPageView(measurementId: string, url: string) {
@@ -25,6 +31,12 @@ function trackPageView(measurementId: string, url: string) {
   });
 }
 
+function trackEvent(eventName: string, params: AnalyticsEventParams = {}) {
+  if (!window.gtag) return;
+
+  window.gtag("event", eventName, params);
+}
+
 export default function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps) {
   const pathname = usePathname();
 
@@ -33,7 +45,40 @@ export default function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps)
 
     const query = window.location.search;
     const url = `${window.location.origin}${pathname}${query}`;
+    const pageContext = getAnalyticsPageContext(pathname);
+
     trackPageView(measurementId, url);
+
+    trackEvent("page_context", {
+      language: pageContext.lang,
+      page_type: pageContext.pageType,
+      content_slug: pageContext.slug,
+      page_path: `${window.location.pathname}${window.location.search}`,
+    });
+
+    if (pageContext.pageType === "food_detail" && pageContext.slug) {
+      trackEvent("view_food_detail", {
+        language: pageContext.lang,
+        page_type: pageContext.pageType,
+        content_slug: pageContext.slug,
+      });
+    }
+
+    if (pageContext.pageType === "guide_detail" && pageContext.slug) {
+      trackEvent("view_guide_detail", {
+        language: pageContext.lang,
+        page_type: pageContext.pageType,
+        content_slug: pageContext.slug,
+      });
+    }
+
+    if (pageContext.pageType === "food_category" && pageContext.slug) {
+      trackEvent("view_food_category", {
+        language: pageContext.lang,
+        page_type: pageContext.pageType,
+        content_slug: pageContext.slug,
+      });
+    }
   }, [measurementId, pathname]);
 
   useEffect(() => {
@@ -46,13 +91,24 @@ export default function GoogleAnalytics({ measurementId }: GoogleAnalyticsProps)
 
       const eventName = trigger.dataset.analyticsEvent;
       if (!eventName) return;
+      const link =
+        trigger instanceof HTMLAnchorElement
+          ? trigger
+          : trigger.querySelector<HTMLAnchorElement>("a[href]");
+      const pageContext = getAnalyticsPageContext(window.location.pathname);
 
-      window.gtag("event", eventName, {
+      trackEvent(eventName, {
         event_category: trigger.dataset.analyticsCategory ?? "engagement",
         event_label: trigger.dataset.analyticsLabel ?? undefined,
         value: trigger.dataset.analyticsValue
           ? Number(trigger.dataset.analyticsValue)
           : undefined,
+        language: trigger.dataset.analyticsLang ?? pageContext.lang,
+        page_type: trigger.dataset.analyticsPageType ?? pageContext.pageType,
+        content_type: trigger.dataset.analyticsContentType ?? undefined,
+        content_slug: trigger.dataset.analyticsSlug ?? undefined,
+        destination_url: trigger.dataset.analyticsDestination ?? link?.href ?? undefined,
+        page_path: `${window.location.pathname}${window.location.search}`,
       });
     };
 

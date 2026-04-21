@@ -1,7 +1,8 @@
----
+﻿---
 slug: "avocado-oil"
 description: "牛油果油富含油酸、维生素E和叶黄素，烟点高达271°C，是高温烹饪的理想选择，同时具有卓越的心脏保护与抗炎功效。"
 summary: "牛油果油是目前烹饪用油中综合品质最为突出的选项之一：极高的烟点、以油酸为主的健康脂肪酸谱，以及未精制版本中保留的丰富抗氧化剂，共同构成其营养优势。"
+image: "/images/foods/avocado-oil-hero.jpg"
 category: "healthy-oils"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

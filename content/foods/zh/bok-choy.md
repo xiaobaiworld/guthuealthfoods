@@ -1,7 +1,8 @@
----
+﻿---
 slug: "bok-choy"
 description: "小白菜富含维生素K、维生素C、钙和葡萄糖苷类植化素，是东亚饮食中历史最悠久、营养密度最高的绿叶蔬菜之一，具有出色的抗癌与护骨功效。"
 summary: "在所有绿叶蔬菜中，小白菜以其极高的钙生物利用率、维生素K浓度和十字花科特有的葡萄糖苷类抗癌物质，在营养密度上名列前茅，且热量极低。"
+image: "/images/foods/bok-choy-hero.jpg"
 category: "leafy-greens"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

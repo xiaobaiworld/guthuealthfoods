@@ -1,7 +1,8 @@
----
+﻿---
 slug: "flax-seeds"
 description: "亚麻籽是omega-3脂肪酸、木酚素和可溶性膳食纤维的宝库，对心脏健康、激素平衡和消化规律性具有卓越的益处。"
 summary: "亚麻籽是植物性α-亚麻酸（ALA omega-3）最丰富的来源，同时含有支持激素健康的木酚素和滋养肠道微生物群、降低胆固醇的可溶性纤维。"
+image: "/images/foods/flax-seeds-hero.jpg"
 category: "nuts-seeds"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

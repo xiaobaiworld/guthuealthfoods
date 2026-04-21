@@ -1,7 +1,8 @@
----
+﻿---
 slug: "walnut-oil"
 description: "Walnut oil is a cold-pressed culinary oil with the highest plant-based omega-3 content among common cooking oils, alongside polyphenols and vitamin E that support heart and brain health."
 summary: "Walnut oil delivers more alpha-linolenic acid (ALA omega-3) than any other common culinary oil, plus antioxidant polyphenols and vitamin E — best used cold to preserve its delicate nutrients."
+image: "/images/foods/walnut-oil-hero.jpg"
 category: "healthy-oils"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

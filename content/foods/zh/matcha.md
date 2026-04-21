@@ -1,7 +1,8 @@
----
+﻿---
 slug: "matcha"
 description: "抹茶是日本将遮光栽培的绿茶叶磨制成的细腻粉末，以其高浓度抗氧化物、L-茶氨酸和平稳持久的能量著称。"
 summary: "抹茶含有极高浓度的儿茶素、L-茶氨酸和叶绿素，能在强效抗氧化保护的同时提供平静而专注的精神状态。"
+image: "/images/foods/matcha-hero.jpg"
 category: "drinks"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

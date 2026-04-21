@@ -65,6 +65,9 @@ export default async function Footer({ lang }: FooterProps) {
                 data-analytics-event="outbound_link_click"
                 data-analytics-category="outbound"
                 data-analytics-label="https://www.antiinflammatorydiets.com/"
+                data-analytics-lang={lang}
+                data-analytics-content-type="outbound_link"
+                data-analytics-destination="https://www.antiinflammatorydiets.com/"
               >
                 Anti-inflammatory diet
               </a>

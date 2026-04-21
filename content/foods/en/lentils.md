@@ -1,7 +1,8 @@
----
+﻿---
 slug: "lentils"
 description: "Lentils are protein-rich legumes packed with fiber, iron, and folate — a nutritional staple cultivated for over 8,000 years and essential to plant-based diets worldwide."
 summary: "Lentils deliver exceptional plant-based protein, soluble fiber, and key minerals, making them one of the most nutritionally complete legumes available."
+image: "/images/foods/lentils-hero.jpg"
 category: "legumes-grains"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

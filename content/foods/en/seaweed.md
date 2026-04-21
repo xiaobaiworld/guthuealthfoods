@@ -1,7 +1,8 @@
----
+﻿---
 slug: "seaweed"
 description: "Seaweed is a nutrient-rich marine algae providing iodine, antioxidants, dietary fibre, and unique bioactive compounds that support thyroid health and metabolic function."
 summary: "Seaweed delivers iodine, fucoxanthin, soluble fibre, and a broad spectrum of minerals in a low-calorie food used across Asian cuisines for thousands of years."
+image: "/images/foods/seaweed-hero.jpg"
 category: "functional-foods"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

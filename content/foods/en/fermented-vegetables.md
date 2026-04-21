@@ -1,7 +1,8 @@
----
+﻿---
 slug: "fermented-vegetables"
 description: "Fermented vegetables are lacto-fermented plant foods teeming with live probiotics, enzymes, and enhanced nutrients that support gut health and immune function."
 summary: "Fermented vegetables like sauerkraut, kimchi, and pickled beets deliver billions of live beneficial bacteria alongside vitamins and bioactive compounds that promote digestive health, immunity, and nutrient absorption."
+image: "/images/foods/fermented-vegetables-hero.jpg"
 category: "functional-foods"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -1,7 +1,8 @@
----
+﻿---
 slug: "cinnamon"
 description: "肉桂是一种具有强效抗氧化和血糖调节作用的温性香料，在烹饪与传统医学中已有数千年历史。"
 summary: "肉桂富含多酚抗氧化物，有助于调节血糖、支持心脏健康，是厨房中药用价值最高的香料之一。"
+image: "/images/foods/cinnamon-hero.jpg"
 category: "herbs-spices"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

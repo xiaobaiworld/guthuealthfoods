@@ -1,7 +1,8 @@
----
+﻿---
 slug: "sesame-oil"
 description: "芝麻油是以芝麻籽压榨而成的风味浓郁食用油，以其抗氧化木脂素、有益心脏的不饱和脂肪酸及优异的热稳定性著称。"
 summary: "芝麻油含有芝麻酚、芝麻素、油酸、亚油酸及维生素E，是亚洲和中东烹饪的经典用油，具有经临床验证的抗氧化特性。"
+image: "/images/foods/sesame-oil-hero.jpg"
 category: "healthy-oils"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

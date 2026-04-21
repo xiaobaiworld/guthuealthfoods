@@ -1,7 +1,8 @@
----
+﻿---
 slug: "pomegranate"
 description: "Pomegranate is an ancient fruit exceptionally rich in punicalagins, anthocyanins, and vitamin C — among the most antioxidant-dense fruits in the world."
 summary: "Pomegranate's unique polyphenols — particularly punicalagins found almost nowhere else in food — deliver powerful anti-inflammatory, cardiovascular, and gut health benefits."
+image: "/images/foods/pomegranate-hero.jpg"
 category: "fruits"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -1,7 +1,8 @@
----
+﻿---
 slug: "bok-choy"
 description: "Bok choy is a nutrient-dense leafy green from the Brassica family, prized for its high vitamin K, vitamin C, and calcium content alongside potent anti-cancer glucosinolates."
 summary: "A staple of East Asian cooking for over 5,000 years, bok choy delivers an impressive profile of vitamins, minerals, and phytochemicals in a very low-calorie package."
+image: "/images/foods/bok-choy-hero.jpg"
 category: "leafy-greens"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -1,7 +1,8 @@
----
+﻿---
 slug: "cinnamon"
 description: "Cinnamon is a warming spice with potent antioxidant and blood sugar-regulating properties, used for thousands of years in cooking and traditional medicine."
 summary: "Cinnamon delivers powerful antioxidants, helps regulate blood sugar, and supports heart health — making it one of the most therapeutically valuable spices in the pantry."
+image: "/images/foods/cinnamon-hero.jpg"
 category: "herbs-spices"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

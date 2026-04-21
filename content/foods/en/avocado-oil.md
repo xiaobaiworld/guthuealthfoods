@@ -1,7 +1,8 @@
----
+﻿---
 slug: "avocado-oil"
 description: "Avocado oil is a premium culinary oil with one of the highest smoke points among plant oils, rich in oleic acid and fat-soluble antioxidants."
 summary: "Avocado oil combines a very high smoke point with a rich monounsaturated fat profile, making it one of the most versatile and heat-stable healthy cooking oils available."
+image: "/images/foods/avocado-oil-hero.jpg"
 category: "healthy-oils"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

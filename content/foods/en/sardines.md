@@ -1,7 +1,8 @@
----
+﻿---
 slug: "sardines"
 description: "Sardines are small, oily fish packed with omega-3 fatty acids, complete protein, and bone-building calcium — one of the most nutrient-dense foods available."
 summary: "Sardines deliver exceptional omega-3s, protein, vitamin D, and calcium in a sustainable, affordable package that supports heart, brain, and bone health."
+image: "/images/foods/sardines-hero.jpg"
 category: "functional-foods"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

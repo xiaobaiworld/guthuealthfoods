@@ -1,7 +1,8 @@
----
+﻿---
 slug: "turmeric"
 description: "姜黄是富含姜黄素的金黄色香料，姜黄素是食品科学中研究最为深入的抗炎和抗氧化植物化学物质，在阿育吠陀医学中已有逾4000年的应用历史。"
 summary: "姜黄的活性成分姜黄素已在数百项临床试验中展现出强效抗炎、抗氧化和神经保护作用，支持关节、大脑和肠道健康。"
+image: "/images/foods/turmeric-hero.jpg"
 category: "herbs-spices"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

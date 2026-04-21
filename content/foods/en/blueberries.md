@@ -2,6 +2,7 @@
 slug: "blueberries"
 description: "Blueberries are one of the most antioxidant-rich fruits available, packed with anthocyanins, vitamin C, and fiber that support brain health, heart health, and immune function."
 summary: "Small but extraordinarily nutrient-dense, blueberries deliver a remarkable concentration of antioxidants, vitamins, and fiber that make them one of the most well-researched health foods on the planet."
+image: "/images/foods/blueberries-hero.jpg"
 category: "fruits"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -1,7 +1,8 @@
----
+﻿---
 slug: "watercress"
 description: "Watercress is an aquatic leafy green ranked as the most nutrient-dense vegetable in published nutrition scoring systems, rich in glucosinolates, vitamin K, and vitamin C."
 summary: "Watercress tops the CDC's powerhouse food ranking, delivering glucosinolates, vitamin K, vitamin C, and beta-carotene in a peppery aquatic green with strong cancer-preventive and bone-protective evidence."
+image: "/images/foods/watercress-hero.jpg"
 category: "leafy-greens"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -1,7 +1,8 @@
----
+﻿---
 slug: "turmeric"
 description: "Turmeric is a golden spice containing curcumin, the most studied anti-inflammatory and antioxidant phytochemical in food science, used for over 4,000 years in Ayurvedic medicine."
 summary: "Turmeric's active compound curcumin has demonstrated potent anti-inflammatory, antioxidant, and neuroprotective effects in hundreds of clinical trials, supporting joint, brain, and gut health."
+image: "/images/foods/turmeric-hero.jpg"
 category: "herbs-spices"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

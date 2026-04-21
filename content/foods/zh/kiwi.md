@@ -1,7 +1,8 @@
----
+﻿---
 slug: "kiwi"
 description: "猕猴桃是一种营养密集的小型水果，富含维生素C、维生素K和消化酶，对免疫力、睡眠质量和肠道健康具有充分记录的益处。"
 summary: "猕猴桃每克维生素C含量超过橙子，同时含有助消化蛋白酶猕猴桃蛋白酶、有助于睡眠的血清素前体和促进肠道健康的益生元纤维——是功能最丰富的小型水果之一。"
+image: "/images/foods/kiwi-hero.jpg"
 category: "fruits"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

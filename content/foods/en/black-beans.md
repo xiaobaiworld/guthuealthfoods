@@ -1,7 +1,8 @@
----
+﻿---
 slug: "black-beans"
 description: "Black beans are a fiber and protein powerhouse with anthocyanin antioxidants, resistant starch, and a strong track record for blood sugar and gut health."
 summary: "Black beans combine high plant protein, resistant starch, and anthocyanin antioxidants — a staple legume with proven benefits for gut health, blood sugar, and heart health."
+image: "/images/foods/black-beans-hero.jpg"
 category: "legumes-grains"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

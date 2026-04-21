@@ -1,7 +1,8 @@
----
+﻿---
 slug: "ginger"
 description: "生姜是一种开花植物的根茎，具有强效的抗恶心、抗炎和助消化特性，在亚洲烹饪与传统医学中已有2000多年的使用历史。"
 summary: "生姜的活性成分姜辣素具有充分记录的止恶心作用、强效抗炎效果、消化支持作用，以及在疼痛缓解和血糖管理方面不断涌现的新证据。"
+image: "/images/foods/ginger-hero.jpg"
 category: "herbs-spices"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -1,7 +1,8 @@
----
+﻿---
 slug: "kefir"
 description: "Kefir is a fermented milk drink with a uniquely diverse probiotic profile, containing up to 61 strains of beneficial bacteria and yeasts that powerfully support gut health and immunity."
 summary: "Kefir delivers a more complex and diverse range of probiotics than yogurt, along with high-quality protein, calcium, and vitamin K2, making it one of the most potent fermented foods for gut microbiome health."
+image: "/images/foods/kefir-hero.jpg"
 category: "drinks"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

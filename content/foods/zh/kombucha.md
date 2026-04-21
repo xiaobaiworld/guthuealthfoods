@@ -1,7 +1,8 @@
----
+﻿---
 slug: "kombucha"
 description: "康普茶是由细菌和酵母菌共生培养物（SCOBY）发酵而成的茶饮，提供益生菌、有机酸和抗氧化物，有益于肠道健康和身体排毒。"
 summary: "康普茶结合了活性益生菌、有机酸、B族维生素和来自发酵茶底的抗氧化物，支持消化健康、肝功能和代谢平衡——具有令人愉快的酸爽气泡口感。"
+image: "/images/foods/kombucha-hero.jpg"
 category: "drinks"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -1,7 +1,8 @@
----
+﻿---
 slug: "rosemary"
 description: "Rosemary is a fragrant Mediterranean herb rich in rosmarinic acid, carnosic acid, and antioxidant compounds that support brain function, circulation, and inflammation management."
 summary: "Rosemary contains carnosic acid and rosmarinic acid — potent antioxidants that protect brain cells, support circulation, and make this herb far more than a simple culinary flavoring."
+image: "/images/foods/rosemary-hero.jpg"
 category: "herbs-spices"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

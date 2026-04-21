@@ -1,7 +1,8 @@
----
+﻿---
 slug: "pumpkin-seeds"
 description: "Pumpkin seeds are nutrient-dense seeds rich in magnesium, zinc, healthy fats, and tryptophan — a compact, versatile snack with meaningful benefits for sleep, immunity, and heart health."
 summary: "Pumpkin seeds are one of the best plant sources of magnesium and zinc, with a unique fat and amino acid profile that supports cardiovascular health, immune function, and restful sleep."
+image: "/images/foods/pumpkin-seeds-hero.jpg"
 category: "nuts-seeds"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

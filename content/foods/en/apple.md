@@ -2,6 +2,7 @@
 slug: "apple"
 description: "Apples are fiber-rich fruits loaded with quercetin, polyphenols, and vitamin C — among the most widely studied fruits for gut health and chronic disease prevention."
 summary: "Apples deliver soluble fiber, vitamin C, and a broad spectrum of polyphenols that support gut health, heart function, and blood sugar balance."
+image: "/images/foods/apple-hero.jpg"
 category: "fruits"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -1,7 +1,8 @@
----
+﻿---
 slug: "basil"
 description: "罗勒含有丰富的芳香多酚、精油成分（尤其是丁香酚）、维生素K及抗氧化化合物，具有显著的抗炎、抗菌和神经保护潜力。"
 summary: "不仅仅是一种调味香草——罗勒中的丁香酚、芳樟醇和槲皮素等植化素在抗菌、抗炎、血糖调节与心理健康方面均有研究支持。"
+image: "/images/foods/basil-hero.jpg"
 category: "herbs-spices"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

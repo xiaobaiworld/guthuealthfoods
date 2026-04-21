@@ -1,7 +1,8 @@
----
+﻿---
 slug: "seaweed"
 description: "海藻是营养丰富的海洋藻类，提供碘、抗氧化剂、膳食纤维及独特的生物活性成分，有助于支持甲状腺健康和代谢功能。"
 summary: "海藻富含碘、岩藻黄质、可溶性膳食纤维和多种矿物质，是亚洲饮食文化数千年的传统食材，也是低热量、高营养密度的海洋超级食品。"
+image: "/images/foods/seaweed-hero.jpg"
 category: "functional-foods"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

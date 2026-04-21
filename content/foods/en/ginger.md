@@ -1,7 +1,8 @@
----
+﻿---
 slug: "ginger"
 description: "Ginger is a flowering plant root with potent anti-nausea, anti-inflammatory, and digestive properties, used in cooking and traditional medicine across Asia for over 2,000 years."
 summary: "Ginger's active compound gingerol delivers well-documented relief from nausea, powerful anti-inflammatory effects, digestive support, and emerging evidence for pain reduction and blood sugar management."
+image: "/images/foods/ginger-hero.jpg"
 category: "herbs-spices"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

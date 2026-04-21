@@ -2,6 +2,7 @@
 slug: "yogurt"
 description: "酸奶是含有丰富活性益生菌的发酵乳制品，有助于支持肠道菌群多样性，同时提供蛋白质、钙质和B族维生素，支持骨骼和代谢健康。"
 summary: "酸奶含有活性益生菌、优质蛋白质和高生物利用率钙质，其发酵特性可改善乳糖耐受性、支持免疫功能，并促进肠道菌群多样性。"
+image: "/images/foods/yogurt-hero.jpg"
 category: "functional-foods"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -37,7 +37,11 @@ export default function Navbar({ lang }: NavbarProps) {
           href={`/${lang}`}
           className="brand-link"
           data-analytics-event="nav_brand_click"
+          data-analytics-category="navigation"
           data-analytics-label={lang}
+          data-analytics-lang={lang}
+          data-analytics-content-type="home"
+          data-analytics-destination={`/${lang}`}
         >
           <span className="brand-link__mark">G</span>
           <span>{lang === "en" ? "Gut Health Foods" : "肠道健康食品"}</span>
@@ -49,7 +53,11 @@ export default function Navbar({ lang }: NavbarProps) {
               key={link.href}
               href={link.href}
               data-analytics-event="nav_click"
+              data-analytics-category="navigation"
               data-analytics-label={`${lang}:${link.analyticsLabel}`}
+              data-analytics-lang={lang}
+              data-analytics-content-type={link.analyticsLabel}
+              data-analytics-destination={link.href}
             >
               {link.label}
             </Link>

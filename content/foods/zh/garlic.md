@@ -1,7 +1,8 @@
----
+﻿---
 slug: "garlic"
 description: "大蒜是一种辛香的烹饪球茎，具有卓越的药用特性，数千年的使用历史与现代研究共同证实了其抗菌、心血管和免疫支持功效。"
 summary: "大蒜的活性成分大蒜素具有强效的抗菌、抗真菌、抗病毒和心血管保护作用，使其成为世界上循证依据最充分的药用食品之一。"
+image: "/images/foods/garlic-hero.jpg"
 category: "herbs-spices"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -1,7 +1,8 @@
----
+﻿---
 slug: "green-tea"
 description: "Green tea is one of the world's most consumed beverages, rich in catechins — particularly EGCG — that provide exceptional antioxidant, metabolic, and brain-health benefits."
 summary: "Green tea delivers a unique combination of EGCG catechins and L-theanine, offering powerful antioxidant protection, metabolic support, calm focus, and extensive evidence for long-term disease prevention."
+image: "/images/foods/green-tea-hero.jpg"
 category: "drinks"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { ContentItem } from "@/lib/content";
 
 import ContentCard from "./ContentCard";
@@ -34,11 +35,41 @@ export default function RichContentPage({
 
   return (
     <article className={articleClassName}>
-      <header className="rich-page__hero">
-        <p className="eyebrow">{item.heroKicker ?? item.collection}</p>
-        <h1>{item.heroTitle ?? item.title}</h1>
-        <p className="rich-page__subtitle">{heroDescription}</p>
-        {showGuideHeroBody ? <p className="rich-page__hero-body">{item.heroBody}</p> : null}
+      <header className={`rich-page__hero${item.image ? " rich-page__hero--with-media" : ""}`}>
+        <div className="rich-page__hero-copy">
+          <p className="eyebrow">{item.heroKicker ?? item.collection}</p>
+          <h1>{item.heroTitle ?? item.title}</h1>
+          <p className="rich-page__subtitle">{heroDescription}</p>
+          {showGuideHeroBody ? <p className="rich-page__hero-body">{item.heroBody}</p> : null}
+        </div>
+        {item.image ? (
+          <div className="rich-page__hero-media">
+            <a
+              href={item.image}
+              target="_blank"
+              rel="noreferrer"
+              className="rich-page__hero-image-link"
+              aria-label={`Open full image for ${item.heroTitle ?? item.title}`}
+              data-analytics-event="food_image_open"
+              data-analytics-category="media"
+              data-analytics-label={item.image}
+              data-analytics-content-type={isGuide ? "guide_media" : "food_media"}
+              data-analytics-slug={item.slug}
+              data-analytics-lang={item.lang}
+              data-analytics-page-type={isGuide ? "guide_detail" : "food_detail"}
+              data-analytics-destination={item.image}
+            >
+              <Image
+                src={item.image}
+                alt={item.heroTitle ?? item.title}
+                width={640}
+                height={640}
+                className="rich-page__hero-image"
+                unoptimized
+              />
+            </a>
+          </div>
+        ) : null}
       </header>
 
       {showMainContent ? (
@@ -82,6 +113,11 @@ export default function RichContentPage({
                 data-analytics-event="content_card_click"
                 data-analytics-category="content"
                 data-analytics-label={`/${item.lang}/foods/category/${category.slug}`}
+                data-analytics-content-type="food_category"
+                data-analytics-slug={category.slug}
+                data-analytics-lang={item.lang}
+                data-analytics-page-type={isGuide ? "guide_detail" : "food_detail"}
+                data-analytics-destination={`/${item.lang}/foods/category/${category.slug}`}
               >
                 {category.title}
               </a>

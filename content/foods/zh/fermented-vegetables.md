@@ -1,7 +1,8 @@
----
+﻿---
 slug: "fermented-vegetables"
 description: "发酵蔬菜是经乳酸发酵制成的植物性食品，富含活性益生菌、酶和增强型营养素，有助于肠道健康和免疫功能。"
 summary: "泡菜、酸菜、腌甜菜等发酵蔬菜含有数十亿活性有益菌，以及维生素和生物活性化合物，可促进消化健康、增强免疫力、提高营养吸收率。"
+image: "/images/foods/fermented-vegetables-hero.jpg"
 category: "functional-foods"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -1,7 +1,8 @@
----
+﻿---
 slug: "pomegranate"
 description: "石榴是一种古老水果，富含安石榴苷、花青素和维生素C，是世界上抗氧化能力最强的水果之一。"
 summary: "石榴含有几乎只存在于其中的独特多酚——安石榴苷，能转化为尿石素，为心血管、肠道和关节健康提供有力的抗炎保护。"
+image: "/images/foods/pomegranate-hero.jpg"
 category: "fruits"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

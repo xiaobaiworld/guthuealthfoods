@@ -1,7 +1,8 @@
----
+﻿---
 slug: "brown-rice"
 description: "Brown rice is a whole grain that retains its nutrient-rich bran and germ layers, providing sustained energy, B vitamins, magnesium, and fiber that support metabolic and digestive health."
 summary: "The unrefined form of one of the world's most consumed staples, brown rice delivers a meaningful array of B vitamins, minerals, and fiber that are stripped away in the white rice refining process."
+image: "/images/foods/brown-rice-hero.jpg"
 category: "legumes-grains"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

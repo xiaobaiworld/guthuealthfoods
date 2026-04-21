@@ -1,7 +1,8 @@
----
+﻿---
 slug: "oat-milk"
 description: "Oat milk is a plant-based milk alternative made from blended oats and water, offering a creamy texture, moderate fiber content, and fortified vitamins and minerals."
 summary: "Oat milk is the most sustainable and barista-friendly plant milk, naturally sweet with a mild flavor, and often fortified with calcium, vitamin D, and B12."
+image: "/images/foods/oat-milk-hero.jpg"
 category: "drinks"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

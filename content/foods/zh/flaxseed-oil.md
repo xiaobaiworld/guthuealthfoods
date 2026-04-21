@@ -1,7 +1,8 @@
----
+﻿---
 slug: "flaxseed-oil"
 description: "亚麻籽油是一种冷榨油，富含植物性omega-3 ALA，在冷食使用的前提下可发挥强效的抗炎和心血管健康功效。"
 summary: "亚麻籽油在所有食用油中植物omega-3 ALA浓度最高，是减少炎症、支持心脏健康和滋养皮肤的有效日常补充——但必须始终冷食使用。"
+image: "/images/foods/flaxseed-oil-hero.jpg"
 category: "healthy-oils"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

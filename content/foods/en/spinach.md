@@ -2,6 +2,7 @@
 slug: "spinach"
 description: "Spinach is a nutrient-dense leafy green vegetable providing iron, folate, vitamins K and A, and lutein — a foundational food for blood, bone, and eye health."
 summary: "Spinach offers exceptional levels of folate, vitamin K, lutein, and non-haem iron in a low-calorie leafy green that supports healthy blood, eyesight, and cardiovascular function."
+image: "/images/foods/spinach-leaf-hero.jpg"
 category: "leafy-greens"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

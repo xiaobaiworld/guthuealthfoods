@@ -1,7 +1,8 @@
----
+﻿---
 slug: "chia-seeds"
 description: "Chia seeds are a nutritional powerhouse loaded with omega-3 fatty acids, complete protein, soluble fiber, and bone-supporting minerals — all in a tiny, versatile seed."
 summary: "Once a staple of Aztec and Mayan civilizations, chia seeds pack an extraordinary density of omega-3s, fiber, protein, and minerals into a nearly flavorless seed that absorbs up to 12 times its weight in liquid."
+image: "/images/foods/chia-seeds-hero.jpg"
 category: "nuts-seeds"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

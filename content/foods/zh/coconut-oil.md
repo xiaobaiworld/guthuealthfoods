@@ -1,7 +1,8 @@
----
+﻿---
 slug: "coconut-oil"
 description: "椰子油是一种富含中链甘油三酯的热带脂肪，因其独特的代谢特性和抗菌功效，被广泛用于烹饪、烘焙和护肤。"
 summary: "椰子油中高浓度的中链甘油三酯使其有别于大多数脂肪，可快速提供能量、发挥抗菌作用，且用途多样——但其较高的饱和脂肪含量提示需适量使用。"
+image: "/images/foods/coconut-oil-hero.jpg"
 category: "healthy-oils"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

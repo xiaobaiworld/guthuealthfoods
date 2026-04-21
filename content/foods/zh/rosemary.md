@@ -1,7 +1,8 @@
----
+﻿---
 slug: "rosemary"
 description: "迷迭香是地中海地区特有的芳香草本植物，富含迷迭香酸、鼠尾草酸和抗氧化化合物，对大脑功能、血液循环和炎症管理具有支持作用。"
 summary: "迷迭香含有鼠尾草酸和迷迭香酸这两种强效抗氧化剂，能保护脑细胞、促进血液循环、减轻炎症，远不只是简单的烹饪调料。"
+image: "/images/foods/rosemary-hero.jpg"
 category: "herbs-spices"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

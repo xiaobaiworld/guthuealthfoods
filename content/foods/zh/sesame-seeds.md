@@ -1,7 +1,8 @@
----
+﻿---
 slug: "sesame-seeds"
 description: "芝麻是富含油脂的微小种子，提供钙、铁、锌及独特的抗氧化木脂素，有助于骨骼健康、激素平衡和心血管功能。"
 summary: "芝麻是植物性钙质最丰富的食物之一，同时提供铁、锌、健康脂肪及抗氧化木脂素芝麻素和芝麻林素。"
+image: "/images/foods/sesame-seeds-hero.jpg"
 category: "nuts-seeds"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

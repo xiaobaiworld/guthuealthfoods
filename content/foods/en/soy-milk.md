@@ -1,7 +1,8 @@
----
+﻿---
 slug: "soy-milk"
 description: "Soy milk is a plant-based drink made from whole soybeans, providing complete protein, isoflavones, and essential fatty acids as a nutritious alternative to cow's milk."
 summary: "Soy milk is one of the most nutritionally complete plant milks, offering complete protein, isoflavones linked to cardiovascular and bone health, and beneficial unsaturated fats."
+image: "/images/foods/soy-milk-hero.jpg"
 category: "drinks"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

@@ -1,7 +1,8 @@
----
+﻿---
 slug: "chia-seeds"
 description: "奇亚籽是植物性食品中ω-3脂肪酸（ALA）和膳食纤维含量最高的来源之一，同时提供完整蛋白质和骨骼所需矿物质，在血糖管理、肠道健康和心血管保护方面具有充分的临床证据支持。"
 summary: "这颗来自古代阿兹特克文明的微小种子，以惊人的ω-3含量、超高膳食纤维和完整氨基酸谱，成为现代营养学验证最充分的植物性超级食品之一。"
+image: "/images/foods/chia-seeds-hero.jpg"
 category: "nuts-seeds"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

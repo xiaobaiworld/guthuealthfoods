@@ -1,7 +1,8 @@
----
+﻿---
 slug: "garlic"
 description: "Garlic is a pungent culinary bulb with extraordinary medicinal properties, backed by thousands of years of use and modern research confirming its antibacterial, cardiovascular, and immune-supporting effects."
 summary: "Garlic's active compound allicin delivers potent antibacterial, antifungal, antiviral, and cardiovascular benefits, making it one of the most evidence-backed medicinal foods in the world."
+image: "/images/foods/garlic-hero.jpg"
 category: "herbs-spices"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"
