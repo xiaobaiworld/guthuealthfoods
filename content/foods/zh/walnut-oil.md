@@ -2,7 +2,7 @@
 slug: "walnut-oil"
 description: "核桃油是冷压制成的食用油，在常见烹饪用油中植物性欧米伽-3含量最高，加之多酚和维生素E，有助于支持心脏和大脑健康。"
 summary: "核桃油的α-亚麻酸（ALA欧米伽-3）含量高于任何其他常见食用油，同时含有抗氧化多酚和维生素E——最宜冷用以保全其珍贵营养成分。"
-image: "/images/foods/walnut-oil-hero.jpg"
+image: "/images/foods/walnut-oil-clean.jpg"
 category: "healthy-oils"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

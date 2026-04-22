@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 
-import ContentCard from "@/components/content/ContentCard";
-import ContentSection from "@/components/content/ContentSection";
+import FoodsSearchIndex from "@/components/content/FoodsSearchIndex";
 import JsonLd from "@/components/seo/JsonLd";
 import { getAllItems } from "@/lib/content";
 import { buildCollectionSchema } from "@/lib/schema";
@@ -48,30 +47,28 @@ export default async function FoodsIndex({
   return (
     <div className="site-shell stack-xl">
       <JsonLd data={schema} />
+
       <section className="page-intro">
         <p className="eyebrow">{lang === "en" ? "Food library" : "食品资料库"}</p>
         <h1>{lang === "en" ? "All health food profiles" : "全部健康食品条目"}</h1>
         <p>
           {lang === "en"
-            ? `This route now exposes ${foods.length} food detail pages in ${lang.toUpperCase()}.`
+            ? `This page includes ${foods.length} food detail pages.`
             : `当前页面包含 ${foods.length} 个食品详情页。`}
         </p>
       </section>
 
-      <ContentSection title={lang === "en" ? "Browse the complete set" : "浏览完整内容"}>
-        <div className="card-grid">
-          {foods.map((food) => (
-            <ContentCard
-              key={food.slug}
-              title={food.title}
-              description={food.description}
-              href={getFoodPath(lang, food.slug)}
-              meta={food.category}
-              tags={food.tags}
-            />
-          ))}
-        </div>
-      </ContentSection>
+      <FoodsSearchIndex
+        lang={lang}
+        foods={foods.map((food) => ({
+          slug: food.slug,
+          title: food.title,
+          description: food.description,
+          category: food.category,
+          tags: food.tags,
+          href: getFoodPath(lang, food.slug),
+        }))}
+      />
     </div>
   );
 }

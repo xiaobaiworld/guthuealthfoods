@@ -2,7 +2,7 @@
 slug: "strawberry"
 description: "Strawberries are vibrant red berries delivering vitamin C, anthocyanins, fibre, and ellagic acid — a low-calorie fruit with strong antioxidant and anti-inflammatory properties."
 summary: "Strawberries provide more vitamin C per serving than oranges, alongside anthocyanins and ellagic acid that support cardiovascular health, blood sugar regulation, and skin protection."
-image: "/images/foods/strawberry-hero.jpg"
+image: "/images/foods/strawberry-hero.jpg?v=20260422"
 category: "fruits"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"

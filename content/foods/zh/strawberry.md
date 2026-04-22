@@ -2,7 +2,7 @@
 slug: "strawberry"
 description: "草莓是鲜红亮丽的浆果，富含维生素C、花青素、膳食纤维和鞣花酸，是低热量却具有强效抗氧化和抗炎功效的优质水果。"
 summary: "草莓每份维生素C含量超过橙子，其花青素和鞣花酸有助于支持心血管健康、血糖调节，并对皮肤提供抗氧化保护。"
-image: "/images/foods/strawberry-hero.jpg"
+image: "/images/foods/strawberry-hero.jpg?v=20260422"
 category: "fruits"
 publishedAt: "2026-03-17"
 updatedAt: "2026-03-23"
