@@ -5,7 +5,12 @@ import ContentCard from "@/components/content/ContentCard";
 import ContentSection from "@/components/content/ContentSection";
 import JsonLd from "@/components/seo/JsonLd";
 import { getDictionary } from "@/i18n/get-dictionary";
-import { getFeaturedCategories, getFeaturedFoods, getFeaturedGuides } from "@/lib/content";
+import {
+  getFeaturedCategories,
+  getFeaturedFoods,
+  getFeaturedGuides,
+  type ContentItem,
+} from "@/lib/content";
 import { buildHomeSchema } from "@/lib/schema";
 import { buildHomeMetadata } from "@/lib/seo";
 import { getCategoryPath, getFoodPath, getGuidePath } from "@/lib/site";
@@ -32,6 +37,15 @@ export default async function Home({
     getFeaturedCategories(lang, 4),
     getFeaturedGuides(lang, 3),
   ]);
+  const categoryTitleBySlug = new Map(categories.map((category) => [category.slug, category.title]));
+
+  function getCategoryMeta(food: ContentItem) {
+    if (!food.category) {
+      return undefined;
+    }
+
+    return categoryTitleBySlug.get(food.category) ?? food.category;
+  }
 
   return (
     <div className="home-page">
@@ -90,7 +104,7 @@ export default async function Home({
                 title={food.title}
                 description={food.description}
                 href={getFoodPath(lang, food.slug)}
-                meta={food.category}
+                meta={getCategoryMeta(food)}
                 tags={food.tags}
               />
             ))}

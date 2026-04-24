@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import FoodsSearchIndex from "@/components/content/FoodsSearchIndex";
 import JsonLd from "@/components/seo/JsonLd";
-import { getAllItems } from "@/lib/content";
+import { getAllItems, type ContentItem } from "@/lib/content";
 import { buildCollectionSchema } from "@/lib/schema";
 import { buildCollectionMetadata } from "@/lib/seo";
 import { getFoodPath } from "@/lib/site";
@@ -31,7 +31,11 @@ export default async function FoodsIndex({
   params: Promise<{ lang: "en" | "zh" }>;
 }) {
   const { lang } = await params;
-  const foods = await getAllItems("foods", lang);
+  const [foods, categories] = await Promise.all([
+    getAllItems("foods", lang),
+    getAllItems("categories", lang),
+  ]);
+  const categoryTitleBySlug = new Map(categories.map((category) => [category.slug, category.title]));
   const title = lang === "en" ? "Health Foods Library" : "健康食品资料库";
   const description =
     lang === "en"
@@ -43,6 +47,14 @@ export default async function FoodsIndex({
     description,
     pathname: `/${lang}/foods`,
   });
+
+  function getCategoryMeta(food: ContentItem) {
+    if (!food.category) {
+      return undefined;
+    }
+
+    return categoryTitleBySlug.get(food.category) ?? food.category;
+  }
 
   return (
     <div className="site-shell stack-xl">
@@ -64,7 +76,7 @@ export default async function FoodsIndex({
           slug: food.slug,
           title: food.title,
           description: food.description,
-          category: food.category,
+          category: getCategoryMeta(food),
           tags: food.tags,
           href: getFoodPath(lang, food.slug),
         }))}
