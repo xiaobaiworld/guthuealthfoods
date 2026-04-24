@@ -7,6 +7,7 @@ export interface DataCardProps {
   tags?: string[];
   date?: string;
   imageUrl?: string;
+  imageAlt?: string;
 }
 
 export default function DataCard({
@@ -16,12 +17,13 @@ export default function DataCard({
   tags,
   date,
   imageUrl,
+  imageAlt,
 }: DataCardProps) {
   return (
     <article className="content-card">
       {imageUrl ? (
         <div className="content-card__image">
-          <img src={imageUrl} alt={title} loading="lazy" />
+          <img src={imageUrl} alt={imageAlt ?? title} loading="lazy" />
         </div>
       ) : null}
 

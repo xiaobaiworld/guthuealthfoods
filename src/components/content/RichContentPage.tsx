@@ -21,9 +21,19 @@ export default function RichContentPage({
   void alternatePath;
 
   const isGuide = item.collection === "guides";
+  const heroTitle = item.heroTitle ?? item.title;
   const heroDescription = isGuide
     ? item.summary || item.heroSubtitle || item.description
     : item.heroSubtitle || item.description;
+  const heroImageAlt = isGuide
+    ? item.lang === "en"
+      ? `Cover image for ${heroTitle}`
+      : `${heroTitle}页面配图`
+    : item.lang === "en"
+      ? `Photo of ${heroTitle}`
+      : `${heroTitle}图片`;
+  const openImageLabel =
+    item.lang === "en" ? `Open full image for ${heroTitle}` : `打开${heroTitle}原图`;
   const showSidebar = false;
   const showGuideHeroBody = Boolean(isGuide && item.heroBody);
   const showMainContent = !(
@@ -38,7 +48,7 @@ export default function RichContentPage({
       <header className={`rich-page__hero${item.image ? " rich-page__hero--with-media" : ""}`}>
         <div className="rich-page__hero-copy">
           <p className="eyebrow">{item.heroKicker ?? item.collection}</p>
-          <h1>{item.heroTitle ?? item.title}</h1>
+          <h1>{heroTitle}</h1>
           <p className="rich-page__subtitle">{heroDescription}</p>
           {showGuideHeroBody ? <p className="rich-page__hero-body">{item.heroBody}</p> : null}
         </div>
@@ -49,7 +59,7 @@ export default function RichContentPage({
               target="_blank"
               rel="noreferrer"
               className="rich-page__hero-image-link"
-              aria-label={`Open full image for ${item.heroTitle ?? item.title}`}
+              aria-label={openImageLabel}
               data-analytics-event="food_image_open"
               data-analytics-category="media"
               data-analytics-label={item.image}
@@ -61,7 +71,7 @@ export default function RichContentPage({
             >
               <Image
                 src={item.image}
-                alt={item.heroTitle ?? item.title}
+                alt={heroImageAlt}
                 width={640}
                 height={640}
                 className="rich-page__hero-image"
