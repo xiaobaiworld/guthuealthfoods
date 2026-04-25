@@ -1,8 +1,8 @@
 ---
 slug: "healthy-foods-by-category"
 title: "Healthy Foods By Category"
-description: "Browse healthy foods by category and start with the group that fits your meals, habits, or shopping patterns best."
-summary: "Use categories when you want a faster way to narrow the list and focus on the kinds of foods that are most relevant to your routine."
+description: "Browse gut health foods by category and start with the group that fits your meals, habits, or shopping patterns best."
+summary: "Use categories when you want a faster way to narrow the list and focus on the kinds of gut health foods that are most relevant to your routine."
 publishedAt: "2026-03-17"
 updatedAt: "2026-04-24"
 draft: false
@@ -21,7 +21,7 @@ featuredCategorySlugs:
   - functional-foods
   - drinks
 heroTitle: "Healthy Foods By Category"
-heroSubtitle: "A simpler way to browse when you want a clearer starting point, not a longer list."
+heroSubtitle: "A simpler way to browse gut health foods when you want a clearer starting point, not a longer list."
 heroBody: "Different food categories tend to solve different everyday problems. Fruit helps with better snacks, grains and legumes help with more stable meals, and healthy fats can quietly improve the quality of food you already cook."
 heroKicker: "Guide"
 tags:
@@ -32,7 +32,7 @@ readingTime: "4 min read"
 ---
 ## Why browse by category at all?
 
-Looking at every food one by one is not always the most useful way to start. Most people are not trying to redesign their entire diet in one day. They are usually trying to fix one part of it: better breakfasts, better snacks, more vegetables, or more reliable lunch and dinner staples.
+Looking at every food one by one is not always the most useful way to start. Most people are not trying to redesign their entire diet for gut health in one day. They are usually trying to fix one part of it: better breakfasts, better snacks, more vegetables, or more reliable lunch and dinner staples.
 
 That is where categories help. They let you focus on one cluster of foods at a time, which usually makes food decisions feel less random and more practical.
 

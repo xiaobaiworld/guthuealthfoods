@@ -1,8 +1,8 @@
 ---
 slug: "foods-for-digestion"
 title: "Foods For Digestion"
-description: "A clickable list of foods that are often easier to build meals around when you want steadier digestion."
-summary: "Start here if you want simpler foods that can help meals feel lighter, more regular, and easier to tolerate."
+description: "A clickable list of gut health foods that are often easier to build meals around when you want steadier digestion."
+summary: "Start here if you want simpler gut health foods that can help meals feel lighter, more regular, and easier to tolerate."
 publishedAt: "2026-04-19"
 updatedAt: "2026-04-23"
 draft: false
@@ -23,7 +23,7 @@ featuredSlugs:
   - apple
   - broccoli
 heroTitle: "Foods For Digestion"
-heroSubtitle: "A practical list of foods that can help everyday meals feel steadier, lighter, and easier to digest."
+heroSubtitle: "A practical list of gut health foods that can help everyday meals feel steadier, lighter, and easier to digest."
 heroBody: "This list is meant to make food choices simpler, not stricter. These foods tend to work well when you want meals that are easier to build, easier to repeat, and less likely to feel overly heavy."
 heroKicker: "Guide"
 tags:
@@ -34,7 +34,7 @@ readingTime: "4 min read"
 ---
 ## What makes a food digestion-friendly?
 
-For everyday digestive comfort, the goal is not to find one perfect food. It is usually more helpful to build meals around regular timing, comfortable portions, enough fiber, and foods that do not make the whole meal feel too heavy.
+For everyday digestive comfort, the goal is not to find one perfect food. It is usually more helpful to build meals around regular timing, comfortable portions, enough fiber, and gut health foods that do not make the whole meal feel too heavy.
 
 The foods below are good starting points because they fit easily into simple breakfasts, lunches, dinners, and snacks. Oats and brown rice can anchor a meal, kiwi and apples add fruit-based fiber, yogurt and kefir offer fermented options, and ginger can be useful when you want something warmer and simpler.
 

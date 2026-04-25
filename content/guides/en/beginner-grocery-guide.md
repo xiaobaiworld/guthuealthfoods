@@ -1,8 +1,8 @@
 ---
 slug: "beginner-grocery-guide"
 title: "Beginner Grocery Guide"
-description: "A practical beginner grocery guide with a real first-week shopping list, simple meal ideas, and budget-friendly swaps."
-summary: "Use this grocery guide to build a healthier cart for the week without buying foods you are unlikely to use."
+description: "A practical beginner grocery guide for gut health with a real first-week shopping list, simple meal ideas, and budget-friendly swaps."
+summary: "Use this beginner grocery guide to build a gut-healthier cart for the week without buying foods you are unlikely to use."
 publishedAt: "2026-03-17"
 updatedAt: "2026-04-24"
 draft: false
@@ -12,7 +12,7 @@ relatedSlugs:
   - blueberries
   - olive-oil
 heroTitle: "Beginner Grocery Guide"
-heroSubtitle: "A first-week shopping list built for normal people, normal budgets, and normal schedules."
+heroSubtitle: "A first-week grocery guide for gut health built for normal people, normal budgets, and normal schedules."
 heroKicker: "Guide"
 tags:
   - shopping
@@ -20,7 +20,7 @@ tags:
   - weekly
 readingTime: "7 min read"
 ---
-If you want a healthier grocery cart, the goal is not to come home with the most aspirational foods. The goal is to come home with foods that can actually cover your week. For most people, that means a few easy breakfasts, a few reliable snacks, and a few lunch and dinner staples that can be reused in more than one meal.
+If you want a healthier grocery cart that also supports gut health, the goal is not to come home with the most aspirational foods. The goal is to come home with foods that can actually cover your week. For most people, that means a few easy breakfasts, a few reliable snacks, and a few lunch and dinner staples that can be reused in more than one meal.
 
 That approach is not just practical. It also tends to produce better follow-through. Diet quality improves more from foods you repeatedly eat than from foods that sound healthy but never really make it into your routine.
 

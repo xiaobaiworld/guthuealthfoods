@@ -1,8 +1,8 @@
 ---
 slug: "healthy-grocery-list"
 title: "Healthy Grocery List"
-description: "A clickable grocery list built from foods that are easy to buy, easy to use, and worth repeating through the week."
-summary: "Use this page as a simple grocery starting point when you want a cart full of foods you will actually use."
+description: "A clickable gut health grocery list built from foods that are easy to buy, easy to use, and worth repeating through the week."
+summary: "Use this page as a simple gut health grocery starting point when you want a cart full of foods you will actually use."
 publishedAt: "2026-04-19"
 updatedAt: "2026-04-23"
 draft: false
@@ -27,7 +27,7 @@ featuredSlugs:
   - almond
   - olive-oil
 heroTitle: "Healthy Grocery List"
-heroSubtitle: "A straightforward grocery list built from foods that are easy to shop for, easy to combine, and useful through the week."
+heroSubtitle: "A straightforward gut health grocery list built from foods that are easy to shop for, easy to combine, and useful through the week."
 heroBody: "The goal here is not to build the most impressive cart. It is to help you buy foods that can turn into normal breakfasts, lunches, dinners, and snacks without too much effort."
 heroKicker: "Guide"
 tags:
@@ -38,7 +38,7 @@ readingTime: "4 min read"
 ---
 ## Build a useful cart, not a perfect cart
 
-A healthy grocery list should help you make real meals through the week. The goal is to buy foods that can be combined in several ways, so you are not starting from zero every time you need breakfast, lunch, dinner, or a snack.
+A healthy grocery list should help you make real meals through the week, including meals that are better for gut health in a practical everyday way. The goal is to buy foods that can be combined in several ways, so you are not starting from zero every time you need breakfast, lunch, dinner, or a snack.
 
 The clickable list below is organized around practical staples: breakfast bases, fruit, vegetables, grains, legumes, healthy fats, and a few protein-rich foods. Use it as a starting point, then adjust it to your budget, cooking time, and taste.
 

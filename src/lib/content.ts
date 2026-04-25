@@ -95,6 +95,19 @@ async function parseFile(
   };
 }
 
+async function getEnglishTitleMap(collection: Collection) {
+  const englishFiles = ensureCollectionDirExists(collection, "en");
+  const englishItems = await Promise.all(
+    englishFiles.map((file) => parseFile(collection, "en", file)),
+  );
+
+  return new Map(
+    englishItems
+      .filter((item) => !item.draft)
+      .map((item) => [item.translationKey || item.slug, item.title] as const),
+  );
+}
+
 export async function getAllItems(
   collection: Collection,
   lang: Language,
@@ -107,6 +120,7 @@ export async function getAllItems(
     const priorityOrder = new Map<string, number>(
       PRIORITY_GUIDE_KEYS.map((key, index) => [key, index] as const),
     );
+    const englishTitleMap = lang === "zh" ? await getEnglishTitleMap(collection) : null;
 
     return publishedItems.sort((a, b) => {
       const aKey = a.translationKey || a.slug;
@@ -126,20 +140,18 @@ export async function getAllItems(
         return 1;
       }
 
+      if (englishTitleMap) {
+        const aEnglishTitle = englishTitleMap.get(aKey) ?? a.slug;
+        const bEnglishTitle = englishTitleMap.get(bKey) ?? b.slug;
+        return aEnglishTitle.localeCompare(bEnglishTitle);
+      }
+
       return a.title.localeCompare(b.title);
     });
   }
 
   if (collection === "foods" && lang === "zh") {
-    const englishFiles = ensureCollectionDirExists(collection, "en");
-    const englishItems = await Promise.all(
-      englishFiles.map((file) => parseFile(collection, "en", file)),
-    );
-    const englishTitleMap = new Map(
-      englishItems
-        .filter((item) => !item.draft)
-        .map((item) => [item.translationKey || item.slug, item.title] as const),
-    );
+    const englishTitleMap = await getEnglishTitleMap(collection);
 
     return publishedItems.sort((a, b) => {
       const aEnglishTitle = englishTitleMap.get(a.translationKey || a.slug) ?? a.slug;

@@ -15,11 +15,11 @@ export async function generateMetadata({
   const { lang } = await params;
   return buildCollectionMetadata({
     lang,
-    title: lang === "en" ? "Nutrition Guides" : "营养指南",
+    title: lang === "en" ? "Gut Health Guides" : "肠道健康指南",
     description:
       lang === "en"
-        ? "Explore practical nutrition guides built around the Gut Health Foods library."
-        : "浏览围绕肠道健康食品知识库整理的实用营养指南。",
+        ? "Explore practical gut health guides built around the Gut Health Foods library."
+        : "浏览围绕肠道健康食品知识库整理的实用肠道健康指南。",
     pathname: `/${lang}/guides`,
   });
 }
@@ -31,11 +31,11 @@ export default async function GuidesIndex({
 }) {
   const { lang } = await params;
   const guides = await getAllItems("guides", lang);
-  const title = lang === "en" ? "Nutrition Guides" : "营养指南";
+  const title = lang === "en" ? "Gut Health Guides" : "肠道健康指南";
   const description =
     lang === "en"
-      ? "Explore practical nutrition guides built around the Gut Health Foods library."
-      : "浏览围绕肠道健康食品知识库整理的实用营养指南。";
+      ? "Explore practical gut health guides built around the Gut Health Foods library."
+      : "浏览围绕肠道健康食品知识库整理的实用肠道健康指南。";
   const schema = buildCollectionSchema({
     lang,
     title,

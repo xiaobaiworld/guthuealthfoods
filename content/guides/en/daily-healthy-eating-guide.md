@@ -1,8 +1,8 @@
 ---
 slug: "daily-healthy-eating-guide"
 title: "Daily Healthy Eating Guide"
-description: "A practical daily healthy eating guide with sample meals, backup options, and a realistic structure for breakfast, lunch, dinner, and snacks."
-summary: "Use this guide to build a repeatable day of eating with steadier meals, better snacks, and less decision fatigue."
+description: "A practical daily gut health eating guide with sample meals, backup options, and a realistic structure for breakfast, lunch, dinner, and snacks."
+summary: "Use this guide to build a repeatable day of eating that supports gut health with steadier meals, better snacks, and less decision fatigue."
 publishedAt: "2026-03-17"
 updatedAt: "2026-04-24"
 draft: false
@@ -12,7 +12,7 @@ relatedSlugs:
   - blueberries
   - olive-oil
 heroTitle: "Daily Healthy Eating Guide"
-heroSubtitle: "A realistic way to structure breakfast, lunch, dinner, and snacks without making the day feel overplanned."
+heroSubtitle: "A realistic way to structure breakfast, lunch, dinner, and snacks when you want a steadier gut health routine without making the day feel overplanned."
 heroBody: "A strong day of eating usually works because each meal covers a clear role: breakfast steadies the morning, lunch prevents the afternoon slump, snacks reduce rebound hunger, and dinner is simple enough to make on a normal weekday."
 heroKicker: "Guide"
 tags:
@@ -21,7 +21,7 @@ tags:
   - meal planning
 readingTime: "7 min read"
 ---
-Healthy eating gets easier when you stop chasing a perfect day and start building a useful one. For most people, a good day of eating is not especially strict or impressive. It is balanced enough to support energy, appetite, and routine, and simple enough to repeat several times a week.
+Healthy eating gets easier when you stop chasing a perfect day and start building a useful one. For most people, a good day of eating for gut health is not especially strict or impressive. It is balanced enough to support energy, appetite, and routine, and simple enough to repeat several times a week.
 
 One very normal example might look like this:
 
