@@ -81,7 +81,6 @@ export default async function Footer({ lang }: FooterProps) {
           &copy; {new Date().getFullYear()} {lang === "en" ? "Gut Health Foods" : "肠道健康食品"}.{" "}
           {dict.footer.rights}
         </p>
-        <p>{lang === "en" ? "Static bilingual nutrition reference." : "双语静态营养知识站。"}</p>
       </div>
     </footer>
   );
