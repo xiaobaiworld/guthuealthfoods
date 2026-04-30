@@ -33,7 +33,7 @@ export default async function Footer({ lang }: FooterProps) {
               <Link href={`/${lang}/guides`}>{lang === "en" ? "Guides" : "指南"}</Link>
             </li>
             <li>
-              <Link href={`/${lang}/about`}>{dict.footer.mission}</Link>
+              <Link href={`/${lang}/about`}>{lang === "en" ? "About Us" : "关于我们"}</Link>
             </li>
           </ul>
         </div>
