@@ -21,6 +21,8 @@ export default function RichContentPage({
   void alternatePath;
 
   const isGuide = item.collection === "guides";
+  const showHeroKicker = item.collection === "foods";
+  const heroKicker = showHeroKicker ? item.heroKicker ?? item.collection : "";
   const heroTitle = item.heroTitle ?? item.title;
   const heroDescription = isGuide
     ? item.summary || item.heroSubtitle || item.description
@@ -47,7 +49,7 @@ export default function RichContentPage({
     <article className={articleClassName}>
       <header className={`rich-page__hero${item.image ? " rich-page__hero--with-media" : ""}`}>
         <div className="rich-page__hero-copy">
-          <p className="eyebrow">{item.heroKicker ?? item.collection}</p>
+          {heroKicker ? <p className="eyebrow">{heroKicker}</p> : null}
           <h1>{heroTitle}</h1>
           <p className="rich-page__subtitle">{heroDescription}</p>
           {showGuideHeroBody ? <p className="rich-page__hero-body">{item.heroBody}</p> : null}
