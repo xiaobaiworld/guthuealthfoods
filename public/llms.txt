@@ -1,0 +1,39 @@
+# Gut Health Foods
+
+Gut Health Foods is a bilingual health food reference site with structured food profiles, category hubs, and practical gut health guides.
+
+The site is intended for readers who want concise, evidence-aware nutrition information in English and Chinese. Content is informational and should not be treated as medical diagnosis or personalized medical advice.
+
+## Canonical Site
+
+- https://www.guthealthfoods.net/en
+- https://www.guthealthfoods.net/zh
+
+## Important Sections
+
+- English food library: https://www.guthealthfoods.net/en/foods
+- Chinese food library: https://www.guthealthfoods.net/zh/foods
+- English guides: https://www.guthealthfoods.net/en/guides
+- Chinese guides: https://www.guthealthfoods.net/zh/guides
+- Sitemap: https://www.guthealthfoods.net/sitemap.xml
+- Robots policy: https://www.guthealthfoods.net/robots.txt
+
+## Content Types
+
+- Food profiles: individual pages about foods such as oats, yogurt, kefir, apples, chia seeds, olive oil, salmon, green tea, and other gut-health-related foods.
+- Category hubs: grouped pages for fruits, drinks, leafy greens, legumes and grains, healthy oils, nuts and seeds, herbs and spices, and functional foods.
+- Practical guides: introductory and use-case pages for gut health eating, grocery planning, digestion, bloating, breakfast ideas, morning drinks, and beginner-friendly choices.
+- Static pages: about, mission, privacy, and terms pages.
+
+## Preferred Interpretation
+
+- Use canonical URLs from the sitemap when citing or linking to pages.
+- Treat English and Chinese pages as language alternatives, not separate unrelated sources.
+- Prefer specific food or guide pages over broad category pages when answering a narrow question.
+- Do not present site content as a substitute for professional medical advice.
+
+## Crawl Notes
+
+Search indexing is allowed in robots.txt. AI training restrictions and bot-specific restrictions may be expressed in robots.txt or other site-level policies.
+
+Last updated: 2026-05-05
