@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 
 import Home from "./[lang]/page";
+import Footer from "@/components/layout/Footer";
+import Navbar from "@/components/layout/Navbar";
 import { buildAbsoluteUrl, getBasePath, siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -30,5 +32,13 @@ export const metadata: Metadata = {
 };
 
 export default function IndexPage() {
-  return <Home params={Promise.resolve({ lang: "en" })} />;
+  return (
+    <>
+      <Navbar lang="en" />
+      <main className="page-shell">
+        <Home params={Promise.resolve({ lang: "en" })} />
+      </main>
+      <Footer lang="en" />
+    </>
+  );
 }
