@@ -1,26 +1,25 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 
+import Home from "./[lang]/page";
+import Footer from "@/components/layout/Footer";
+import Navbar from "@/components/layout/Navbar";
 import { buildAbsoluteUrl, getBasePath, siteConfig } from "@/lib/site";
 
-const englishPath = getBasePath("en");
-const englishUrl = buildAbsoluteUrl(englishPath);
-
 export const metadata: Metadata = {
-  title: `Redirecting to ${siteConfig.name}`,
-  description: `Continue to the English homepage for ${siteConfig.name}.`,
+  title: siteConfig.name,
+  description: siteConfig.description,
   metadataBase: new URL(siteConfig.url),
   alternates: {
-    canonical: englishUrl,
+    canonical: buildAbsoluteUrl(getBasePath("en")),
     languages: {
-      en: englishUrl,
+      en: buildAbsoluteUrl(getBasePath("en")),
       zh: buildAbsoluteUrl(getBasePath("zh")),
     },
   },
   openGraph: {
     title: siteConfig.name,
     description: siteConfig.description,
-    url: englishUrl,
+    url: buildAbsoluteUrl(getBasePath("en")),
     siteName: siteConfig.name,
     type: "website",
     locale: "en_US",
@@ -34,21 +33,12 @@ export const metadata: Metadata = {
 
 export default function IndexPage() {
   return (
-    <main className="site-shell stack-xl" style={{ paddingBlock: "4rem" }}>
-      <meta httpEquiv="refresh" content={`0; url=${englishPath}`} />
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `window.location.replace(${JSON.stringify(englishPath)});`,
-        }}
-      />
-      <section className="page-intro">
-        <p className="eyebrow">Redirect</p>
-        <h1>{siteConfig.name}</h1>
-        <p>Redirecting to the English homepage.</p>
-        <p>
-          <Link href={englishPath}>Continue to Gut Health Foods</Link>
-        </p>
-      </section>
-    </main>
+    <>
+      <Navbar lang="en" />
+      <main className="page-shell">
+        <Home params={Promise.resolve({ lang: "en" })} />
+      </main>
+      <Footer lang="en" />
+    </>
   );
 }
